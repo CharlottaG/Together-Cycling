@@ -53,6 +53,10 @@ li a {
     text-decoration: none;
 }
 
+li a:hover {
+    background-color: #BA567B;
+}
+
 
 /* Main content */
 /* This is flexbox-item 2*/
@@ -72,9 +76,15 @@ main {
 footer{
     background-color: #2C4658;
     color: #F4F4F2;
-    
 }
 
 footer a {
     color: #F4F4F2;
+}
+
+#social-media {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px 10px 15px;
 }
