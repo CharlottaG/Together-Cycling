@@ -34,12 +34,19 @@ a:visited {
 }
 
 /* Navbar */
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0px 0px 0px;
+    font-size: 12px
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2C4658;
 }
 
 li {
@@ -49,13 +56,26 @@ li {
 li a {
     display: block;
     color: #F4F4F2;
-    padding: 2px;
+    padding: 8px;
     text-decoration: none;
 }
 
 li a:hover {
+    text-decoration: underline;
+}
+
+#about {
     background-color: #BA567B;
 }
+
+#rides {
+    background-color: #CD9853;
+}
+
+#join {
+    background-color: #312539;
+}
+
 
 
 /* Main content */
@@ -73,7 +93,7 @@ main {
 
 /* Footer */
 /* This is flexbox-item 3*/
-footer{
+footer {
     background-color: #2C4658;
     color: #F4F4F2;
 }
