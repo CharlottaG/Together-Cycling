@@ -23,6 +23,10 @@ header {
     background-color: #2C4658;
     color: #F4F4F2;
     text-align: center;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
 a {
@@ -41,11 +45,10 @@ a:visited {
 
 /* Navbar */
 nav {
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
-    padding: 5px 0px 0px 0px;
-    font-size: 12px
+    font-size: 12px;
+    width: 100%;
 }
 
 ul {
@@ -53,14 +56,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-li {
-    float: left;
+    display: flex;
+    
 }
 
 li a {
-    display: block;
+    flex-direction: row;
     color: #F4F4F2;
     padding: 8px;
     text-decoration: none;
