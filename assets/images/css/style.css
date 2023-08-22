@@ -53,9 +53,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #BA5678;
-}
 
 /* Main content */
 /* This is flexbox-item 2*/
@@ -74,5 +71,10 @@ main {
 /* This is flexbox-item 3*/
 footer{
     background-color: #2C4658;
+    color: #F4F4F2;
+    
+}
+
+footer a {
     color: #F4F4F2;
 }
