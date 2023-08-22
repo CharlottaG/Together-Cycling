@@ -17,14 +17,21 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+a:visited {
+    color:inherit;
+}
+
+a:active {
+    text-decoration: bold;
+}
+
 /* Header */
 /* This is flexbox-item 1*/
 header {
     background-color: #2C4658;
     color: #F4F4F2;
     text-align: center;
-    padding: 0 1rem;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 99;
     width: 100%;
 }
@@ -51,7 +58,7 @@ nav {
     width: 100%;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -62,7 +69,6 @@ ul {
 
 li a {
     flex-direction: row;
-    color: #F4F4F2;
     padding: 8px;
     text-decoration: none;
 }
@@ -73,14 +79,17 @@ li a:hover {
 
 #about {
     background-color: #BA567B;
+    width: 33%;
 }
 
 #rides {
     background-color: #CD9853;
+    width: 33%;
 }
 
 #join {
     background-color: #312539;
+    width: 33%;
 }
 
 
@@ -103,6 +112,10 @@ main {
 footer {
     background-color: #2C4658;
     color: #F4F4F2;
+}
+
+footer ul {
+    list-style-type: none;
 }
 
 footer a {
