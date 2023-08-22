@@ -24,20 +24,51 @@ header {
     color: #F4F4F2;
 }
 
+a:visited {
+    color: #F4F4F2;
+}
+
 #logo {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 30px;
-
 }
 
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2C4658;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F4F4F2;
+    padding: 2px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #BA5678;
+}
 
 /* Main content */
 /* This is flexbox-item 2*/
 main {
-
     /* Makes the main content take up all remaining space and not shrink*/
     flex: 1 0 auto;
 }
+
+#intro {
+    padding: 15px 25px 15px 25px;
+}
+
+
 
 /* Footer */
 /* This is flexbox-item 3*/
