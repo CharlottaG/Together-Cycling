@@ -1,0 +1,22 @@
+/* Wildcard selector to override default styling from browser*/
+* {
+    padding: 0;
+    margin: 0;
+    /* Width and height apply to all parts of the element: content, padding and borders */
+    box-sizing; border-box;
+}
+
+/* Header */
+header {
+    background-color: aquamarine;
+}
+
+/* Main content */
+main {
+    background-color: blueviolet;
+}
+
+/* Footer */
+footer {
+    background-color: coral;
+}
