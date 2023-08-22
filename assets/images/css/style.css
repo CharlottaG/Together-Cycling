@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     /* Width and height apply to all parts of the element: content, padding and borders */
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 /* General styles*/
@@ -17,19 +17,21 @@ body {
 /* Header */
 /* This is flexbox-item 1*/
 header {
-    background-color: aquamarine;
+    background-color: #2C4658;
+    color: #F4F4F2;
 }
 
 /* Main content */
 /* This is flexbox-item 2*/
 main {
-    background-color: blueviolet;
+
     /* Makes the main content take up all remaining space and not shrink*/
     flex: 1 0 auto;
 }
 
 /* Footer */
 /* This is flexbox-item 3*/
-footer {
-    background-color: coral;
+footer{
+    background-color: #2C4658;
+    color: #F4F4F2;
 }
