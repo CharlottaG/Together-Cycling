@@ -92,11 +92,18 @@ main {
     /* Makes the main content take up all remaining space and not shrink*/
     flex: 1 0 auto;
     margin-top: 76px;
-    background: url("assets/images/alessio-soggetti-JQGGf6OuIdQ-unsplash.webp");
+    
 }
 
 section {
     padding: 15px 25px;    
+}
+
+/* Intro section index page*/
+#intro {
+    height: 600px;
+    width: 100%;
+    background: url("assets/images/alessio-soggetti-JQGGf6OuIdQ-unsplash.webp");
 }
 
 /* Sign-up form
