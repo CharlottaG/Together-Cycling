@@ -9,39 +9,35 @@
 }
 
 /* General styles*/
-/* Body = Flexbox container */
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'Nunito', sans-serif;
+    color: #2C4658;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: #F4F4F2;
 }
 
 a:visited {
-    color:inherit;
-}
-
-a:active {
-    text-decoration: bold;
+    color: #F4F4F2;
 }
 
 /* Header */
-/* This is flexbox-item 1*/
 header {
     background-color: #2C4658;
     color: #F4F4F2;
     text-align: center;
-    /*position: fixed;*/
+    position: fixed;
     z-index: 99;
     width: 100%;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: #F4F4F2;
 }
 
 #logo {
@@ -52,25 +48,19 @@ a:visited {
 
 /* Navbar */
 nav {
-    display: flex;
-    justify-content: space-evenly;
     font-size: 12px;
     width: 100%;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     display: flex;
-    
+    text-decoration: none;
 }
 
 li a {
     flex-direction: row;
-    padding: 8px;
-    text-decoration: none;
+    text-align: center;
 }
 
 li a:hover {
@@ -80,35 +70,56 @@ li a:hover {
 #about {
     background-color: #BA567B;
     width: 33%;
+    height: 2.5em;
 }
 
 #rides {
     background-color: #CD9853;
     width: 33%;
+    height: 2.5em;
 }
 
 #join {
     background-color: #312539;
     width: 33%;
+    height: 2.5em;
 }
 
 
 
 /* Main content */
-/* This is flexbox-item 2*/
 main {
     /* Makes the main content take up all remaining space and not shrink*/
     flex: 1 0 auto;
+    margin-top: 76px;
+    background: url("assets/images/alessio-soggetti-JQGGf6OuIdQ-unsplash.webp");
+}
+
+section {
+    padding: 15px 25px;    
+}
+
+/* Sign-up form
+
+form {
+    width: 100%;
+    padding: 1em;
+}
+
+#fname, #lname, #email {
+    width: 100%;
 }
 
 #intro {
-    padding: 15px 25px 15px 25px;
+    align-self: flex-end;
 }
 
+#signup {
+    background: url("../assets/images/alessio-soggetti-JQGGf6OuIdQ-unsplash.webp") no-repeat center center/cover;
+    
 
 
 /* Footer */
-/* This is flexbox-item 3*/
 footer {
     background-color: #2C4658;
     color: #F4F4F2;
@@ -126,5 +137,5 @@ footer a {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 0;
 }
