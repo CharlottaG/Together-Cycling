@@ -22,6 +22,12 @@ h2 {
     padding-bottom: 15px;
 }
 
+h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    background-color: #312539;
+}
+
 a {
     text-decoration: none;
     color: #F4F4F2;
@@ -69,19 +75,19 @@ li a:hover {
 }
 
 #about {
-    background-color: #BA567B;
+    background-color: #312539;
     width: 33%;
     height: 2.5em;
 }
 
 #rides {
     background-color: #CD9853;
-    width: 33%;
+    width: 34%;
     height: 2.5em;
 }
 
 #join {
-    background-color: #312539;
+    background-color: #BA567B ;
     width: 33%;
     height: 2.5em;
 }
@@ -100,6 +106,7 @@ section {
     padding: 15px 25px;
 }
 
+/* Index page */
 #intro {
     height: 600px;
     width: 100%;
@@ -135,13 +142,29 @@ form {
 }
 
 #submit {
-    background-color: #CD9853;
+    background-color: #BA567B;
     border: none;
     border-radius: 25px;
     width: 80px;
     text-align: center;
     color: #F4F4F2;
     margin-top: 20px;
+}
+
+/* Who we are page*/
+#who-we-are {
+    height: 600px;
+    width: 100%;
+    /* Fallback colour */
+    background: #312539;
+    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/two-riders.webp") no-repeat center center/cover;
+}
+
+#jens {
+    opacity: 0.8;
+    border-radius: 50%;
+    height: 80px;
+
 }
 
 /* 
