@@ -14,13 +14,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Nunito', sans-serif;
-    color: #2C4658;
+    color: #F4F4F2;
 }
 
 h2 {
     font-size: 1.5rem;
     padding-bottom: 15px;
 }
+
 a {
     text-decoration: none;
     color: #F4F4F2;
@@ -92,38 +93,53 @@ main {
     /* Makes the main content take up all remaining space and not shrink*/
     flex: 1 0 auto;
     margin-top: 76px;
-    
+
 }
 
 section {
-    padding: 15px 25px;    
+    padding: 15px 25px;
 }
 
-/* Intro section index page*/
 #intro {
     height: 600px;
     width: 100%;
-    background: url("assets/images/alessio-soggetti-JQGGf6OuIdQ-unsplash.webp");
+    background: url("../images/cycle-handlebar.webp") no-repeat center center/cover;
 }
 
-/* Sign-up form
+/* Sign-up page */
 
 form {
     width: 100%;
     padding: 1em;
 }
 
-#fname, #lname, #email {
+#fname,
+#lname,
+#email {
     width: 100%;
-}
-
-#intro {
-    align-self: flex-end;
+    opacity: 0.5;
 }
 
 #signup {
-    background: url("../assets/images/alessio-soggetti-JQGGf6OuIdQ-unsplash.webp") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    /*background: url("../images/join.webp") no-repeat center center/cover;
+    background-color: rgba(186, 86, 123, 0.5);
+    /* Fallback colour */
+        background: #312539;
     
+    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.5), rgba(186, 86, 123, 0.5)), url("../images/join.webp") no-repeat center center/cover;
+    
+}
+
+/* 
+#intro {
+    align-self: flex-end; 
+} */
+
+
+
+
 
 
 /* Footer */
