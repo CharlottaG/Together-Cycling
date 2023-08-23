@@ -103,33 +103,45 @@ section {
 #intro {
     height: 600px;
     width: 100%;
-    background: url("../images/cycle-handlebar.webp") no-repeat center center/cover;
+    /* Fallback colour */
+    background: #312539;
+    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/cycle-handlebar.webp") no-repeat center center/cover;
 }
 
 /* Sign-up page */
 
 form {
     width: 100%;
-    padding: 1em;
+    padding: 0;
 }
 
 #fname,
 #lname,
 #email {
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.8;
+    border: none;
+    color: #2C4658;
+    padding: 2px;
+    margin-bottom: 10px;
 }
 
 #signup {
     height: 600px;
     width: 100%;
-    /*background: url("../images/join.webp") no-repeat center center/cover;
-    background-color: rgba(186, 86, 123, 0.5);
     /* Fallback colour */
-        background: #312539;
-    
-    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.5), rgba(186, 86, 123, 0.5)), url("../images/join.webp") no-repeat center center/cover;
-    
+    background: #312539;
+    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/join.webp") no-repeat center center/cover;
+}
+
+#submit {
+    background-color: #CD9853;
+    border: none;
+    border-radius: 25px;
+    width: 80px;
+    text-align: center;
+    color: #F4F4F2;
+    margin-top: 20px;
 }
 
 /* 
