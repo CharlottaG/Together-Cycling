@@ -57,37 +57,28 @@ header {
 nav {
     font-size: 12px;
     width: 100%;
-    /*test*/
     display: flex;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    text-decoration: none;
-}
-
-li a {
-    flex-direction: row;
-    text-align: center;
 }
 
 #about {
     background-color: #312539;
     width: 33%;
     height: 2.5em;
+    padding-top: 5px;
 }
 
 #rides {
     background-color: #CD9853;
     width: 34%;
     height: 2.5em;
+    padding-top: 5px;
 }
 
 #join {
     background-color: #BA567B;
     width: 33%;
     height: 2.5em;
+    padding-top: 5px;
 }
 
 
