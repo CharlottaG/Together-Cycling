@@ -57,6 +57,8 @@ header {
 nav {
     font-size: 12px;
     width: 100%;
+    /*test*/
+    display: flex;
 }
 
 nav ul {
@@ -68,10 +70,6 @@ nav ul {
 li a {
     flex-direction: row;
     text-align: center;
-}
-
-li a:hover {
-    text-decoration: underline;
 }
 
 #about {
@@ -87,7 +85,7 @@ li a:hover {
 }
 
 #join {
-    background-color: #BA567B ;
+    background-color: #BA567B;
     width: 33%;
     height: 2.5em;
 }
@@ -167,16 +165,6 @@ form {
 
 }
 
-/* 
-#intro {
-    align-self: flex-end; 
-} */
-
-
-
-
-
-
 /* Footer */
 footer {
     background-color: #2C4658;
@@ -196,4 +184,11 @@ footer a {
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
+}
+
+/* For screens 600px and larger */
+@media screen and (min-width: 600px) {
+    li a:hover {
+        text-decoration: underline;
+    }
 }

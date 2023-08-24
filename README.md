@@ -20,4 +20,8 @@ Who we are : an about us page that provides some background to how and why the c
 - Navbar - how to make it horizontal - <https://www.w3schools.com/css/css_navbar_horizontal.asp>
 - Color scheme - used <http://colormind.io/bootstrap/> to find colors that match together with the blue and yellow tones already decided on.
 - Used google fonts: Bricolage Grotesque, and Nunito.
+
+## Credit 
+
+A : <https://stackoverflow.com/questions/8743892/how-to-hyperlink-a-html-css-box-section>
 - [EOF]
