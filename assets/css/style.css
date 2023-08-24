@@ -119,6 +119,59 @@ section {
     width: 250px;
 }
 
+/* Who we are page*/
+#who-we-are {
+    height: 100%;
+    width: 100%;
+    /* Fallback colour */
+    background: #312539;
+    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/two-riders.webp") no-repeat center center/cover;
+}
+
+#jens {
+    opacity: 0.8;
+    border-radius: 50%;
+    height: 80px;
+
+}
+
+/* Our rides page*/
+#rides {
+    background: -webkit-linear-gradient(rgba(205, 105, 83, 0.8), rgba(186, 86, 123, 0.4));
+    height: 100%;
+    width: 100%;
+}
+
+.rides {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.day {
+    flex-grow: 4;
+}
+
+.rides div {
+    border: 1px dotted #F4F4F2;
+    background-color: #BA567B;
+    border-radius: 5px;
+    width: 20%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#iframe {
+    width:300px;
+    height:250px;
+}
+
+.iframe>p {
+    padding: 10px 0px;
+}
+
 /* Sign-up page */
 
 form {
@@ -153,22 +206,6 @@ form {
     text-align: center;
     color: #F4F4F2;
     margin-top: 20px;
-}
-
-/* Who we are page*/
-#who-we-are {
-    height: 100%;
-    width: 100%;
-    /* Fallback colour */
-    background: #312539;
-    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/two-riders.webp") no-repeat center center/cover;
-}
-
-#jens {
-    opacity: 0.8;
-    border-radius: 50%;
-    height: 80px;
-
 }
 
 /* Footer */
