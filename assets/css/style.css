@@ -45,6 +45,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 #logo {
@@ -57,31 +61,35 @@ header {
 nav {
     font-size: 12px;
     width: 100%;
-    display: flex;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #2C4658;
+    left: 0px;
 }
 
-#about {
-    background-color: #312539;
-    width: 33%;
-    height: 2.5em;
-    padding-top: 5px;
+#menu {
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 20px;
 }
 
-#rides {
-    background-color: #CD9853;
-    width: 34%;
-    height: 2.5em;
-    padding-top: 5px;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-#join {
-    background-color: #BA567B;
-    width: 33%;
-    height: 2.5em;
-    padding-top: 5px;
+#nav-toggle {
+    display: none;
 }
 
+.nav-toggle-label {
+    font-size: 30px;
+}
 
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
 
 /* Main content */
 main {
@@ -177,9 +185,51 @@ footer a {
     padding: 10px 0;
 }
 
-/* For screens 600px and larger */
-@media screen and (min-width: 600px) {
-    li a:hover {
+/* For screens 768px and larger */
+@media screen and (min-width: 768px) {
+
+    /* Navbar */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    a:hover {
         text-decoration: underline;
+    }
+
+    /*#about {
+        background-color: #312539;
+        width: 33%;
+        height: 2.5em;
+        padding: 5px 0px;
+    }
+
+    #rides {
+        background-color: #CD9853;
+        width: 34%;
+        height: 2.5em;
+        padding: 5px 0px;
+    }
+
+    #join {
+        background-color: #BA567B;
+        width: 33%;
+        height: 2.5em;
+        padding: 5px 0px;
     }
 }
