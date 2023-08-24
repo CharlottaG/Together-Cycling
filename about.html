@@ -40,31 +40,33 @@
   <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Together Cycling</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="about.html">Who we are</a></li>
-                <li><a href="rides.html">Our rides</a></li>
-                <li><a href="join.html">Ride with us!</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Together Cycling</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="about.html">Who we are</a></li>
+          <li><a href="rides.html">Our rides</a></li>
+          <li><a href="join.html">Ride with us!</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main section-->
     <main>
       <section id="who-we-are">
         <h2>Who we are!</h2>
-        <div>
+        <div class="about">
           <img
-            src="assets/images/jens.webp"
+            src="assets/images/jens-img.webp"
             alt="Photo of Jens Grundmann"
-            id="jens"
+            class="portrait"
           />
-          <h3>Jens Grundmann</h3>
+        <h3>Jens Grundmann</h3>
           <p>
             My best solo rides are in early mornings, when everything is silent
             and you have the roads to your self. When you catch the sunset and
@@ -73,9 +75,19 @@
             strong and go for an attack or you need to catch your breath
             slipstreaming a fellow wheel. With every breath you get stronger!
           </p>
-        </div>
-        <br />
-        <div>
+          <br/>
+          <a
+            href="https://www.strava.com/athletes/"
+            target="_blank"
+            rel="noopener"
+            ><i class="fa-brands fa-strava"></i> Go to my Strava profile</a>
+          <br/>
+          <img
+            src="assets/images/joakim-img.webp"
+            alt="Photo of Joakim Grundmann"
+            class="portrait"
+          />
+
           <h3>Joakim Grundmann</h3>
           <p>
             My best solo rides are in early mornings, when everything is silent
@@ -85,6 +97,13 @@
             strong and go for an attack or you need to catch your breath
             slipstreaming a fellow wheel. With every breath you get stronger!
           </p>
+          <br />
+          <a
+            href="https://www.strava.com/athletes/"
+            target="_blank"
+            rel="noopener"
+            ><i class="fa-brands fa-strava"></i> Go to my Strava profile</a
+          >
         </div>
       </section>
     </main>
