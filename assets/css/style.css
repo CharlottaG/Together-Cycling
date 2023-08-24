@@ -144,28 +144,32 @@ section {
 
 .rides {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px 0px;
+    padding-top: 10px;
 }
 
 .day {
     flex-grow: 4;
 }
 
-.rides div {
-    border: 1px dotted #F4F4F2;
+.distance,
+.level {
     background-color: #BA567B;
-    border-radius: 5px;
+}
+
+.rides div {
+    border: 2px dotted #F4F4F2;
+    border-radius: 10px;
     width: 20%;
-    padding-top: 10px;
     text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 0px;
+    justify-content: space-between;
 }
 
 #iframe {
-    width:300px;
-    height:250px;
+    width: 300px;
+    height: 250px;
 }
 
 .iframe>p {
