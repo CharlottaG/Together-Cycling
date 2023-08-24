@@ -23,6 +23,6 @@ Who we are : an about us page that provides some background to how and why the c
 
 ## Credit
 
-A : <https://stackoverflow.com/questions/8743892/how-to-hyperlink-a-html-css-box-section>
+A :
 
 - [EOF]
