@@ -105,11 +105,18 @@ section {
 
 /* Index page */
 #intro {
-    height: 600px;
+    height: 100%;
     width: 100%;
     /* Fallback colour */
     background: #312539;
     background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/cycle-handlebar.webp") no-repeat center center/cover;
+}
+
+#intro-text {
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    width: 250px;
 }
 
 /* Sign-up page */
@@ -131,7 +138,7 @@ form {
 }
 
 #signup {
-    height: 600px;
+    height: 100%;
     width: 100%;
     /* Fallback colour */
     background: #312539;
@@ -150,7 +157,7 @@ form {
 
 /* Who we are page*/
 #who-we-are {
-    height: 600px;
+    height: 100%;
     width: 100%;
     /* Fallback colour */
     background: #312539;
@@ -210,26 +217,5 @@ footer a {
 
     a:hover {
         text-decoration: underline;
-    }
-
-    /*#about {
-        background-color: #312539;
-        width: 33%;
-        height: 2.5em;
-        padding: 5px 0px;
-    }
-
-    #rides {
-        background-color: #CD9853;
-        width: 34%;
-        height: 2.5em;
-        padding: 5px 0px;
-    }
-
-    #join {
-        background-color: #BA567B;
-        width: 33%;
-        height: 2.5em;
-        padding: 5px 0px;
     }
 }
