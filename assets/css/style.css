@@ -17,14 +17,23 @@ body {
     color: #F4F4F2;
 }
 
-h2 {
+h1 {
     font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
     padding-bottom: 15px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.2rem;
     padding-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    padding-bottom: 5px;
 }
 
 a {
@@ -52,7 +61,6 @@ header {
 
 #logo {
     font-family: 'Bricolage Grotesque', sans-serif;
-    font-size: 20px;
     padding: 5px;
 }
 
@@ -99,7 +107,7 @@ main {
 }
 
 section {
-    padding: 15px 25px;
+    padding: 45px 25px 30px 25px;
 }
 
 /* Index page */
@@ -141,43 +149,57 @@ section {
 }
 
 /* Our rides page*/
-#rides {
-    background: -webkit-linear-gradient(rgba(205, 105, 83, 0.8), rgba(186, 86, 123, 0.4));
+#rides-page {
+    background: -webkit-linear-gradient(rgba(186, 86, 123, 0.4), rgba(205, 105, 83, 0.8));
     height: 100%;
     width: 100%;
 }
 
-.rides {
-    display: flex;
-    padding-top: 10px;
-    flex-direction: row;
-
+.rides-map {
+    padding: 10px 0px;
 }
 
-.day {
-    font-weight: 800;
+.iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+.rides-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.day,
+.distance,
+.level {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 5px;
 }
 
 .distance,
 .level {
     background-color: #BA567B;
+    margin-left: 10px;
 }
 
-.rides div {
-    border: 2px dotted #F4F4F2;
-    border-radius: 10px;
-    text-align: center;
-    padding: 5px 10px;
+.day {
+    font-weight: 600;
+    background-color: #F4F4F2;
+    color: #BA567B;
+    flex-grow: 2;
 }
 
-#iframe {
-    width: 300px;
-    height: 250px;
+.distance {
+    flex-grow: 1;
 }
 
-.iframe>p {
-    padding: 10px 0px;
+.level {
+    flex-grow: 2;
 }
+
 
 /* Sign-up page */
 
