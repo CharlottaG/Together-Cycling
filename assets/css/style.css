@@ -107,7 +107,7 @@ main {
 }
 
 section {
-    padding: 45px 25px 30px 25px;
+    padding: 45px 35px 35px 35px;
 }
 
 /* Index page */
@@ -285,8 +285,11 @@ footer a {
         text-decoration: underline;
     }
 
-    /*content on about page*/
-    .about {
-        width: 60%;
+    /*Our rides page*/
+    .rides-map {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
+
 }
