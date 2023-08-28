@@ -163,7 +163,7 @@ section {
 
 /* Our rides page*/
 #rides-page {
-    background: -webkit-linear-gradient(rgba(186, 86, 123, 0.4), rgba(205, 105, 83, 0.8));
+    background: -webkit-linear-gradient(rgba(44, 70, 88, 0.4), rgba(205, 105, 83, 0.8)), url("../images/purple-bike.webp") no-repeat center center/cover;
     height: 100%;
     width: 100%;
 }
@@ -194,14 +194,14 @@ section {
 
 .distance,
 .level {
-    background-color: #BA567B;
+    background-color: #2C4658;
     margin-left: 10px;
 }
 
 .day {
     font-weight: 600;
     background-color: #F4F4F2;
-    color: #BA567B;
+    color: #2C4658;
     flex-grow: 2;
 }
 
