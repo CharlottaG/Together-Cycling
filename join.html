@@ -39,46 +39,53 @@
   </head>
   <body>
     <!-- Header -->
-<header>
-    <a href="index.html">
+    <header>
+      <a href="index.html">
         <h1 id="logo">Together Cycling</h1>
-    </a>
-    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-    <nav>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
         <ul id="menu">
-            <li><a href="about.html">Who we are</a></li>
-            <li><a href="rides.html">Our rides</a></li>
-            <li><a href="join.html">Ride with us!</a></li>
+          <li><a href="about.html">Who we are</a></li>
+          <li><a href="rides.html">Our rides</a></li>
+          <li><a href="join.html">Ride with us!</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
     <!-- Main section-->
     <main>
-        <section id="signup">
-    <div id="form">
-      <h2>Sign up to receive emails on upcoming rides!</h2>
-      <form action="https://formdump.codeinstitute.com" method="post">
-        <input type="text" id="fname" name="first-name" placeholder="First Name"/>
-        <br />
-        <input type="text" id="lname" name="last-name" placeholder="Last Name" />
-        <br />
-        <input type="email" id="email" name="email" placeholder="Email Adress"/>
-        <br />
-        <input type="checkbox" id="agree" name="agree" />
-        <label for="agree">I agree to receiving emails from Together Cycling</label>
-        <br />
-        <input type="radio" id="beginner" name="beginner" />
-        <label for="beginner">I'm new to road cycling</label>
-        <br>
-        <input type="radio" id="experienced" name="experienced" />
-        <label for="experienced">I'm an experienced cyclist</label>
-        <br>
-        <input type="sumbit" id="submit" value="Submit" />
-      </form>
-    </div>
-    </section>
+      <section id="signup">
+        <div id="form">
+          <h2>Sign up to receive emails on upcoming rides!</h2>
+          <form action="https://formdump.codeinstitute.net" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first-name" />
+            <br />
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last-name" />
+            <br />
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" />
+            <br />
+            <input type="checkbox" id="agree" name="gdpr" value="agree-to-emails"/>
+            <label for="agree" id="label-agree">I agree to receive emails from Together Cycling</label>
+            <br />
+            <fieldset>
+              <legend>Cycling proficiency</legend>
+              <input type="radio" id="beginner" name="level" value="beginner" />
+              <label for="beginner">I'm new to road cycling</label>
+              <br />
+              <input type="radio" id="experienced" name="level" value="experienced" />
+              <label for="experienced">I'm an experienced cyclist</label>
+            </fieldset>            
+              <input type="submit" id="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- Footer-->

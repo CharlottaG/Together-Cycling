@@ -214,7 +214,7 @@ section {
 }
 
 
-/* Sign-up page */
+/* Join page */
 
 #signup {
     height: 100%;
@@ -235,11 +235,24 @@ section {
 #lname,
 #email {
     width: 100%;
-    /*opacity: 0.8;
-    color: #2C4658;*/
     border: none;
     padding: 2px;
     margin-bottom: 10px;
+}
+
+#label-agree {
+    font-size: 12px;
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 1px dotted;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+fieldset legend {
+    padding-left: 2px;
 }
 
 #submit {
@@ -323,12 +336,28 @@ footer a {
     }
 
     /*Our rides page*/
+    .rides {
+        width: 30%;
+    }
+    #map-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
     .rides-map {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
+    .iframe {
+        height: 400px;
+    }
 
+    /*Join page*/
+        #form {
+            padding: 30px;
+        }
 
 }
