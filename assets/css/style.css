@@ -33,7 +33,7 @@ h3 {
 
 p {
     font-size: 1rem;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -130,10 +130,6 @@ section {
     width: 75vw;
 }
 
-#intro-text>p {
-    padding-bottom: 20px;
-}
-
 #signature {
     font-family: 'Give You Glory', cursive;
 }
@@ -148,10 +144,8 @@ section {
 }
 
 .portrait {
-    opacity: 0.8;
     border-radius: 50%;
     height: 80px;
-    padding: 10px 0px
 }
 
 .about {
