@@ -215,37 +215,41 @@ section {
 
 /* Sign-up page */
 
-form {
+#signup {
+    height: 100%;
     width: 100%;
-    padding: 0;
+    /* Fallback colour */
+    background: #312539;
+    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.3), rgba(186, 86, 123, 0.6)), url("../images/join.webp") no-repeat center center/cover;
+}
+
+#form {
+    width: 75vw;
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(49, 37, 57, 0.4);
 }
 
 #fname,
 #lname,
 #email {
     width: 100%;
-    opacity: 0.8;
+    /*opacity: 0.8;
+    color: #2C4658;*/
     border: none;
-    color: #2C4658;
     padding: 2px;
     margin-bottom: 10px;
-}
-
-#signup {
-    height: 100%;
-    width: 100%;
-    /* Fallback colour */
-    background: #312539;
-    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/join.webp") no-repeat center center/cover;
 }
 
 #submit {
     background-color: #BA567B;
     border: none;
     border-radius: 25px;
-    width: 80px;
+    width: 100px;
     text-align: center;
+    padding: 5px ;
     color: #F4F4F2;
+    font-weight: 200;
     margin-top: 20px;
 }
 
