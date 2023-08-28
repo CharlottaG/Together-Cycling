@@ -112,7 +112,7 @@ main {
 }
 
 section {
-    padding: 45px 35px 35px 35px;
+    padding: 45px 25px;
 }
 
 /* Index page */
@@ -135,7 +135,7 @@ section {
 }
 
 /* Who we are page*/
-#who-we-are {
+#about {
     height: 100%;
     width: 100%;
     /* Fallback colour */
@@ -143,15 +143,22 @@ section {
     background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/two-riders.webp") no-repeat center center/cover;
 }
 
-.portrait {
-    border-radius: 50%;
-    height: 80px;
+.personal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
-.about {
-    background-color: rgba(244, 244, 242, 0.7);
-    color: #312539;
-    padding: 20px;
+.personal-text {
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(44, 70, 88, 0.7);
+}
+
+.portrait {
+    border-radius: 20px;
+    height: 210px;
+    margin-bottom: 10px;    
 }
 
 /* Our rides page*/
@@ -294,6 +301,26 @@ footer a {
     a:hover {
         text-decoration: underline;
     }
+    /*About page*/
+    .container {
+        position: relative;
+    }
+    .personal {
+        width: 700px;
+        flex-wrap: nowrap;
+
+    }
+    .portrait {
+        height: 200px;
+        position: absolute;
+    }
+
+    .personal-text {
+        position: relative;
+        width: 600px;
+        left: 155px;
+        top: 35px;
+    }
 
     /*Our rides page*/
     .rides-map {
@@ -301,5 +328,7 @@ footer a {
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+
 
 }
