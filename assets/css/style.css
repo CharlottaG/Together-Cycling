@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-bottom: 10px;
 }
 
@@ -149,6 +149,11 @@ section {
     background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/two-riders.webp") no-repeat center center/cover;
 }
 
+#container-who-we-are {
+    background-color: rgba(49, 37, 57, 0.4);
+    padding: 10px;
+}
+
 .personal {
     display: flex;
     flex-direction: row;
@@ -158,12 +163,12 @@ section {
 
 .personal-text {
     padding: 10px 10px 10px 10px;
-    background-color: rgba(44, 70, 88, 0.7);
+    background-color: rgb(44, 70, 88);
 }
 
 .portrait {
     border-radius: 20px;
-    height: 210px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
@@ -172,6 +177,11 @@ section {
     background: -webkit-linear-gradient(rgba(44, 70, 88, 0.4), rgba(205, 105, 83, 0.8)), url("../images/purple-bike.webp") no-repeat center center/cover;
     height: 100%;
     width: 100%;
+}
+
+#container-rides {
+    padding: 10px;
+    background-color: rgba(49, 37, 57, 0.4);
 }
 
 .rides-map {
@@ -231,7 +241,6 @@ section {
 }
 
 #form {
-    width: 75vw;
     max-width: 300px;
     padding: 10px;
     background-color: rgba(49, 37, 57, 0.4);
@@ -325,20 +334,19 @@ footer a {
     /*Index page*/
     #intro-text {
         margin: 50px 18% 20px 18%;
+        padding: 5%;
+        max-width: 900px;
     }
 
 
     /*About page*/
     #container-who-we-are {
         margin: 50px 18% 20px 18%;
-    }
-
-    #container-personal {
-        position: relative;
+        max-width: 900px;
+        padding: 5%;
     }
 
     .personal {
-        width: 700px;
         flex-wrap: nowrap;
     }
 
@@ -349,12 +357,19 @@ footer a {
 
     .personal-text {
         position: relative;
-        width: 600px;
-        left: 155px;
+        width: 500x;
+        left: 145px;
         top: 35px;
+        padding: 20px;
     }
 
     /*Our rides page*/
+    #container-rides {
+        margin: 50px 18% 20px 18%;
+        max-width: 900px;
+        padding: 5%;
+    }
+
     .rides {
         width: 40%;
     }
@@ -363,7 +378,8 @@ footer a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 15px;
+        justify-content: space-evenly;
+        row-gap: 25px;
     }
 
     .rides-map {
@@ -378,7 +394,9 @@ footer a {
 
     /*Join page*/
     #form {
-        padding: 30px;
+        padding: 5%;
+        max-width: 900px;
+        margin: 50px 18% 20px 18%;
     }
 
 }
