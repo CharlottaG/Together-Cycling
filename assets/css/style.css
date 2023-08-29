@@ -129,6 +129,7 @@ section {
 #intro-text {
     left: 25px;
     bottom: 25px;
+    width: fit-content;
     height: fit-content;
     background-color: rgba(49, 37, 57, 0.4);
     padding: 30px;
@@ -323,22 +324,22 @@ footer a {
 
     /*Index page*/
     #intro-text {
-        position: absolute;
-        left: 15%;
-        top: 20%;
-        right: 15%;
+        margin: 50px 18% 20px 18%;
     }
 
 
     /*About page*/
-    .container {
+    #container-who-we-are {
+        margin: 50px 18% 20px 18%;
+    }
+
+    #container-personal {
         position: relative;
     }
 
     .personal {
         width: 700px;
         flex-wrap: nowrap;
-
     }
 
     .portrait {
@@ -378,19 +379,6 @@ footer a {
     /*Join page*/
     #form {
         padding: 30px;
-    }
-
-}
-
-/* For screens 1024px and larger */
-@media screen and (min-width: 1024px) {
-
-    /*Index page*/
-    #intro-text {
-        position: absolute;
-        left: 18%;
-        top: 25%;
-        right: 18%;
     }
 
 }
