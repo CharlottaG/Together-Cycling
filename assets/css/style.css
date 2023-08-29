@@ -1,5 +1,6 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Give+You+Glory&family=Nunito:wght@200;400&family=Qwitcher+Grypen&display=swap');
+
 /* Wildcard selector to override default styling from browser*/
 * {
     padding: 0;
@@ -115,6 +116,7 @@ section {
     padding: 45px 25px;
 }
 
+
 /* Index page */
 #intro {
     height: 100%;
@@ -127,11 +129,14 @@ section {
 #intro-text {
     left: 25px;
     bottom: 25px;
-    width: 75vw;
+    height: fit-content;
+    background-color: rgba(49, 37, 57, 0.4);
+    padding: 30px;
 }
 
 #signature {
     font-family: 'Give You Glory', cursive;
+    padding-bottom: 0px;
 }
 
 /* Who we are page*/
@@ -158,7 +163,7 @@ section {
 .portrait {
     border-radius: 20px;
     height: 210px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
 }
 
 /* Our rides page*/
@@ -261,9 +266,10 @@ fieldset legend {
     border-radius: 25px;
     width: 100px;
     text-align: center;
-    padding: 5px ;
+    padding: 5px;
     color: #F4F4F2;
-    font-weight: 200;
+    font-weight: 600;
+    font-size: 14px;
     margin-top: 20px;
 }
 
@@ -314,15 +320,27 @@ footer a {
     a:hover {
         text-decoration: underline;
     }
+
+    /*Index page*/
+    #intro-text {
+        position: absolute;
+        left: 15%;
+        top: 20%;
+        right: 15%;
+    }
+
+
     /*About page*/
     .container {
         position: relative;
     }
+
     .personal {
         width: 700px;
         flex-wrap: nowrap;
 
     }
+
     .portrait {
         height: 200px;
         position: absolute;
@@ -339,13 +357,14 @@ footer a {
     .rides {
         width: 40%;
     }
+
     #map-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 15px;
     }
-    
+
     .rides-map {
         display: flex;
         flex-direction: column;
@@ -357,8 +376,21 @@ footer a {
     }
 
     /*Join page*/
-        #form {
-            padding: 30px;
-        }
+    #form {
+        padding: 30px;
+    }
+
+}
+
+/* For screens 1024px and larger */
+@media screen and (min-width: 1024px) {
+
+    /*Index page*/
+    #intro-text {
+        position: absolute;
+        left: 18%;
+        top: 25%;
+        right: 18%;
+    }
 
 }
