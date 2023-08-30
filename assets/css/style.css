@@ -116,31 +116,7 @@ section {
     padding: 45px 25px;
 }
 
-
-/* Index page */
-#intro {
-    height: 100%;
-    width: 100%;
-    /* Fallback colour */
-    background: #312539;
-    background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/cycle-handlebar.webp") no-repeat center center/cover;
-}
-
-#intro-text {
-    left: 25px;
-    bottom: 25px;
-    width: fit-content;
-    height: fit-content;
-    background-color: rgba(49, 37, 57, 0.4);
-    padding: 30px;
-}
-
-#signature {
-    font-family: 'Give You Glory', cursive;
-    padding-bottom: 0px;
-}
-
-/* Who we are page*/
+/* Home page */
 #about {
     height: 100%;
     width: 100%;
@@ -149,27 +125,60 @@ section {
     background: -webkit-linear-gradient(rgba(49, 37, 57, 0.4), rgba(186, 86, 123, 0.4)), url("../images/two-riders.webp") no-repeat center center/cover;
 }
 
-#container-who-we-are {
+#container-about {
+    padding: 10px;
+}
+
+#container-intro,
+#container-jens,
+#container-joakim {
+    padding: 30px;
+    left: 20%;
+    right: 20%;
+}
+
+#container-intro {
     background-color: rgba(49, 37, 57, 0.4);
-    padding: 10px;
 }
 
-.personal {
+#signature {
+    font-family: 'Give You Glory', cursive;
+    padding-bottom: 0px;
+    font-size: 25px;
+}
+
+#container-jens {
+    background-color: rgba(186, 86, 123, 0.4);
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-.personal-text {
-    padding: 10px 10px 10px 10px;
-    background-color: rgb(44, 70, 88);
+#container-joakim {
+    background-color: rgba(205, 105, 83, 0.4);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#intro-text {
+    max-width: 800px;
+}
+
+#text-jens,
+#text-joakim {
+    max-width: 600px;
 }
 
 .portrait {
-    border-radius: 20px;
+    border-radius: 10px;
     height: 100px;
-    margin-bottom: 10px;
+}
+
+#img-jens, #img-joakim {
+    margin-right: 20px;
 }
 
 /* Our rides page*/
@@ -331,37 +340,35 @@ footer a {
         text-decoration: underline;
     }
 
-    /*Index page*/
-    #intro-text {
-        margin: 50px 18% 20px 18%;
-        padding: 5%;
-        max-width: 900px;
-    }
-
-
-    /*About page*/
-    #container-who-we-are {
-        margin: 50px 18% 20px 18%;
-        max-width: 900px;
-        padding: 5%;
-    }
-
-    .personal {
-        flex-wrap: nowrap;
+    /* Home page */
+    #container-about {
+        left: 25px;
+        bottom: 25px;
+        width: fit-content;
+        height: fit-content;
+        padding: 30px;
     }
 
     .portrait {
         height: 200px;
-        position: absolute;
     }
 
-    .personal-text {
-        position: relative;
-        width: 500x;
-        left: 145px;
-        top: 35px;
-        padding: 20px;
-    }
+        #container-jens {
+            background-color: rgba(186, 86, 123, 0.4);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+    
+        #container-joakim {
+            background-color: rgba(205, 105, 83, 0.4);
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
 
     /*Our rides page*/
     #container-rides {
