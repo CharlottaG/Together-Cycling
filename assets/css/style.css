@@ -184,6 +184,8 @@ section {
 
 /* Our rides page*/
 #rides-page {
+    /* Fallback colour */
+        background: #312539;
     background: -webkit-linear-gradient(rgba(44, 70, 88, 0.4), rgba(205, 105, 83, 0.8)), url("../images/cycle-handlebar.webp") no-repeat center center/cover;
     height: 100%;
     width: 100%;
