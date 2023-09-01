@@ -1,24 +1,28 @@
 # Welcome
 
-Together Cycling is a site for cyclist to come together for peleton rides in the Stockholm area. The site provides information on scheduled rides as well as maps to rides for those who just want inspiration for their next ride.
+
 ***Add image of LP
 
-## User stories
- - As the organizer I want to start a community of riders to share
-   experiences and have fun together.
-   
- - As an experienced cyclist I want information on upcoming peleton
-   rides so I can join and get the training I need.
-      
- - As an experienced cyclist I'm looking for inspiration on new rides to stay motivated and challenge myself.
-      
- - As a “new to peleton”-cyclist I want to learn how to ride in a   
-   peleton so I can join safely and with confident.
+## Purpose and target audience
+The Together Cycling website is an online space designed to unite cyclists in the Stockholm (Sweden) area, offering a resource for peleton rides. This site aims to serve the specific needs of individual cyclists who may not be affiliated with any particular cycling club. 
 
- - As a cyclist thinking of joining I want to know who is behind this   
-   group so I can evaluate if it is something I’m interested in.			
+The primary objective is to provide regularly updated group training opportunities/peleton rides in the Stockholm area with different starting points and focus. It is a centralized location where you can discover upcoming rides with information on date, time and rides specifics. In addition to this, the aim is alos to provide a sorce of inspiration with a collection of curated maps offering rides suggestions for individual solo rides. 
+
+### User stories
+ - As the organizer, I want to establish a cycling community where riders can connect, share their cycling experiences and enjoy group rides together.
+   
+ - As an experienced cyclist, I need easily accessible information on upcoming peleton rides in my area, which will enable me join rides that suit my training goals and skill level.
+      
+ - As an experienced cyclist, I seek an online source that provides a variety of inspiring routes and rides that help me stay motivated and continously challenge myself.
+      
+ - As a cyclist new to peleton riding, I'm eager to learn the ropes of riding in a group and need resources and guidance that   
+   help me ride safely and with confidently in a peleton.
+
+ - As a prospective member considering joining the group, I want to learn more about the individuals behind this   
+   cycling community. Understanding their vision will help me evaluate if it aligns with my interests.
 			
 ## Design
+
 ### Colors & Typography
 #### Color scheme
 Used <http://colormind.io/bootstrap/> to find matching colors to add to the blue and yellow tones already decided on.
@@ -47,9 +51,7 @@ Used google fonts:
 Navigation bar : Upper right corner on screens above 768px and hamburger menu on smaller screens
 Footer : Socila media links
 ### Home
-
-### About
-Who we are : an about us page that provides some background to how and why the club started.
+The home defines the purpose of the page and provides background information on who are behind it.
 
 ### Rides
 Our Rides : maps of different training rounds and evaluation of difficulty (technical loop) and links to the Strava segments so you can find it on your own as well as planned rides in peloton with focus of the day (jaktstart, attacks, lagtempo, kurvteknik)
