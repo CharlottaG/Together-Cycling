@@ -19,17 +19,25 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-bottom: 15px;
+    color: #4EABA5;
 }
 
 h3 {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    color: #4EABA5;
+}
+
+h4 {
     font-size: 1.1rem;
     padding-bottom: 10px;
+    color: #F4F4F2
 }
 
 p {
@@ -138,7 +146,7 @@ section {
 }
 
 #container-intro {
-    background-color: rgba(49, 37, 57, 0.4);
+    background-color: rgba(49, 37, 57, 0.6);
 }
 
 #signature {
@@ -148,7 +156,7 @@ section {
 }
 
 #container-jens {
-    background-color: rgba(186, 86, 123, 0.4);
+    background-color: rgba(186, 86, 123, 0.7);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -156,7 +164,7 @@ section {
 }
 
 #container-joakim {
-    background-color: rgba(205, 105, 83, 0.4);
+    background-color: rgba(178, 73, 94 0.7);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -193,7 +201,7 @@ section {
 
 #container-our-rides {
     padding: 10px;
-    background-color: rgba(49, 37, 57, 0.4);
+    background-color: rgba(49, 37, 57, 0.6);
 }
 
 .rides {
@@ -201,10 +209,11 @@ section {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    background-color: rgba(244, 244, 242, 0.3);
 }
 
 .rides-heading {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 iframe {
@@ -217,17 +226,16 @@ iframe {
 .rides-info {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 250px;
 }
 
 .day,
 .distance {
-    border-radius: 10px;
     text-align: left;
     font-size: 0.9rem;
     padding: 10px;
-    background-color: #2C4658;
-    margin-right: 10px;
 }
 
 .day {
@@ -238,6 +246,13 @@ iframe {
 .distance {
     margin-left: 5px;
     width: 100px;
+}
+
+.description {
+    font-size: 0.8rem;
+    width: 250px;
+    padding: 10px;
+    border-top: 1px solid #312539;
 }
 
 /* Join page */
@@ -258,14 +273,14 @@ iframe {
 #form {
     width: 100%;
     padding: 10px;
-    background-color: rgba(186, 86, 123, 0.4);
+    background-color: rgba(186, 86, 123, 0.7);
     margin-bottom: 20px;
 }
 
 #form-info {
     width: 100%;
     padding: 20px;
-    background-color: rgba(49, 37, 57, 0.4);
+    background-color: rgba(49, 37, 57, 0.6);
 }
 
 #fname,
@@ -364,7 +379,7 @@ footer a {
     }
 
     #container-jens {
-        background-color: rgba(186, 86, 123, 0.4);
+        background-color: rgba(186, 86, 123, 0.7);
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -372,7 +387,7 @@ footer a {
     }
 
     #container-joakim {
-        background-color: rgba(205, 105, 83, 0.4);
+        background-color: rgba(205, 105, 83, 0.7);
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
@@ -387,10 +402,11 @@ footer a {
         flex-wrap: wrap;
         justify-content: space-evenly;
         padding: 5%;
+        row-gap: 30px;
     }
 
     #our-rides-intro {
-        padding: 30px;
+        padding: 30px 30px 0px 30px;
     }
 
     iframe {
