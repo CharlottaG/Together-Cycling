@@ -335,11 +335,16 @@ footer a {
     color: #F4F4F2;
 }
 
+#copyright {
+    display: none;
+}
+
 #social-media {
     text-align: center;
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
+    align-items: center;
 }
 
 /* For screens 768px and larger */
@@ -377,6 +382,10 @@ footer a {
     /* Home page */
     .portrait {
         height: 200px;
+    }
+
+    .name {
+        color: #F4F4F2;
     }
 
     #container-jens {
@@ -430,5 +439,11 @@ footer a {
         width: 300px;
         padding: 5%;
         margin-bottom: 0px;
+    }
+
+    /* Footer */
+    #copyright {
+        display: flex;
+        font-size: 0.8rem;
     }
 }
