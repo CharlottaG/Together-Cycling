@@ -155,6 +155,10 @@ section {
     font-size: 20px;
 }
 
+.name {
+    color: #F4F4F2;
+}
+
 #container-jens {
     background-color: rgba(186, 86, 123, 0.7);
     display: flex;
@@ -164,7 +168,7 @@ section {
 }
 
 #container-joakim {
-    background-color: rgba(178, 73, 94 0.7);
+    background-color: rgba(205, 105, 83, 0.7);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -395,12 +399,7 @@ footer a {
         height: 200px;
     }
 
-    .name {
-        color: #F4F4F2;
-    }
-
     #container-jens {
-        background-color: rgba(186, 86, 123, 0.7);
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -408,7 +407,6 @@ footer a {
     }
 
     #container-joakim {
-        background-color: rgba(205, 105, 83, 0.7);
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
