@@ -211,6 +211,7 @@ section {
     align-items: center;
     background-color: rgba(244, 244, 242, 0.3);
     margin: 20px 0px;
+    padding: 0px 20px;
 }
 
 .rides-heading {
@@ -218,7 +219,6 @@ section {
 }
 
 iframe {
-    width: 100%;
     height: 250px;
     border: none;
     margin-bottom: 10px;
@@ -228,8 +228,9 @@ iframe {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 250px;
+    justify-content: space-evenly;
+    width: 250px;
+    padding: 0px 20px;
 }
 
 .day,
@@ -240,18 +241,16 @@ iframe {
 }
 
 .day {
-    margin-right: 5px;
-    width: 140px;
+    width: 120px;
 }
 
 .distance {
-    margin-left: 5px;
-    width: 100px;
+    width: 80px;
 }
 
 .description {
     font-size: 0.8rem;
-    width: 250px;
+    width: 230px;
     padding: 10px;
     border-top: 1px solid #312539;
 }
@@ -347,6 +346,18 @@ footer a {
     align-items: center;
 }
 
+/* For screens 500px and larger */
+@media screen and (min-width: 500px) and (max-width: 767px) {
+
+    iframe,
+    .description,
+    .rides-info {
+        width: 400px;
+    }
+}
+
+
+
 /* For screens 768px and larger */
 @media screen and (min-width: 768px) {
 
@@ -424,6 +435,12 @@ footer a {
         margin: 0px;
     }
 
+    iframe,
+    .description,
+    .rides-info {
+        width: 300px;
+    }
+
     /* Join us page*/
     #form-container {
         display: flex;
@@ -445,5 +462,6 @@ footer a {
     #copyright {
         display: flex;
         font-size: 0.8rem;
+        width: 80vw;
     }
 }
