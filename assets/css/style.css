@@ -215,7 +215,7 @@ section {
     align-items: center;
     background-color: rgba(244, 244, 242, 0.3);
     margin: 20px 0px;
-    padding: 0px 20px;
+    padding: 0px 10px 5px 10px;
 }
 
 .rides-heading {
@@ -232,9 +232,8 @@ iframe {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 250px;
-    padding: 0px 20px;
+    justify-content: space-between;
+    padding: 0px 5px;
 }
 
 .day,
@@ -245,7 +244,7 @@ iframe {
 }
 
 .day {
-    width: 120px;
+    width: 125px;
 }
 
 .distance {
@@ -254,7 +253,6 @@ iframe {
 
 .description {
     font-size: 0.8rem;
-    width: 230px;
     padding: 10px;
     border-top: 1px solid #312539;
 }
