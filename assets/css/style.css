@@ -34,6 +34,12 @@ h3 {
     color: #4EABA5;
 }
 
+h4 {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    color: #F4F4F2;
+}
+
 p {
     font-size: 1rem;
     padding-bottom: 20px;
@@ -298,7 +304,8 @@ iframe {
 }
 
 #label-agree {
-    font-size: 12px;
+    font-size: 1rem;
+    font-style: italic;
 }
 
 fieldset {
@@ -312,6 +319,15 @@ fieldset legend {
     padding-left: 2px;
 }
 
+input[type=radio],
+input[type=checkbox] {
+    padding: 16px;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+
 #submit {
     background-color: #BA567B;
     border: none;
@@ -321,8 +337,8 @@ fieldset legend {
     padding: 5px;
     color: #F4F4F2;
     font-weight: 600;
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 1rem;
+    margin-top: 10px;
 }
 
 /* Footer */
