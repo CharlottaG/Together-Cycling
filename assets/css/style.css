@@ -223,9 +223,11 @@ section {
 }
 
 iframe {
-    height: 250px;
+    height: 350px;
+    width: 325px;
     border: none;
     margin-bottom: 10px;
+    padding: 5%;
 }
 
 .rides-info {
@@ -234,6 +236,7 @@ iframe {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0px 5px;
+    max-width: 320px;
 }
 
 .day,
@@ -348,20 +351,17 @@ footer a {
     align-items: center;
 }
 
-/* For screens 500px and larger */
-@media screen and (min-width: 500px) and (max-width: 767px) {
+/* For extra small screens less than 380px */
+@media only screen and (max-width: 380px) {
 
-    iframe,
-    .description,
-    .rides-info {
-        width: 400px;
+    iframe {
+        height: 250px;
+        width: 235px;
     }
 }
 
-
-
 /* For screens 768px and larger */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     /* Navbar */
     nav {
