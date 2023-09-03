@@ -168,7 +168,7 @@ section {
 }
 
 #container-joakim {
-    background-color: rgba(205, 105, 83, 0.7);
+    background-color: rgba(78, 171, 165, 0.7);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -284,7 +284,7 @@ iframe {
 #form {
     width: 100%;
     padding: 10px;
-    background-color: rgba(186, 86, 123, 0.7);
+    background-color: rgba(78, 171, 165, 0.7);
     margin-bottom: 20px;
 }
 
@@ -304,7 +304,7 @@ iframe {
 }
 
 #label-agree {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-style: italic;
 }
 
@@ -319,6 +319,10 @@ fieldset legend {
     padding-left: 2px;
 }
 
+fieldset label {
+    font-size: 0.8rem;
+}
+
 input[type=radio],
 input[type=checkbox] {
     padding: 16px;
@@ -329,7 +333,7 @@ input[type=checkbox] {
 }
 
 #submit {
-    background-color: #BA567B;
+    background-color: #2C4658;
     border: none;
     border-radius: 25px;
     width: 100px;
