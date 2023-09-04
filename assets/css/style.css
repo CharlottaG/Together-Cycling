@@ -288,6 +288,10 @@ iframe {
     margin-bottom: 20px;
 }
 
+#form >h2 {
+    color: #F4F4F2;
+}
+
 #form-info {
     width: 100%;
     padding: 20px;
