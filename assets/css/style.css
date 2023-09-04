@@ -288,7 +288,7 @@ iframe {
     margin-bottom: 20px;
 }
 
-#form >h2 {
+#form>h2 {
     color: #F4F4F2;
 }
 
@@ -419,6 +419,7 @@ footer a {
     /* Home page */
     .portrait {
         height: 200px;
+        width: 200px;
     }
 
     #container-jens {
