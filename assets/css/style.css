@@ -50,11 +50,6 @@ a {
     color: #F4F4F2;
 }
 
-em {
-    background-color: #BA567B;
-    font-style: normal;
-}
-
 a:visited {
     color: #F4F4F2;
 }
@@ -117,7 +112,6 @@ main {
     /* Makes the main content take up all remaining space and not shrink*/
     flex: 1 0 auto;
     margin-top: 76px;
-
 }
 
 section {
@@ -125,7 +119,7 @@ section {
 }
 
 /* Home page */
-#about {
+#home {
     height: 100%;
     width: 100%;
     /* Fallback colour */
@@ -149,14 +143,14 @@ section {
     background-color: rgba(49, 37, 57, 0.6);
 }
 
+#intro-text {
+    max-width: 800px;
+}
+
 #signature {
     font-family: 'Give You Glory', cursive;
     padding-bottom: 0px;
     font-size: 20px;
-}
-
-.name {
-    color: #F4F4F2;
 }
 
 #container-jens {
@@ -175,15 +169,6 @@ section {
     justify-content: space-between;
 }
 
-#intro-text {
-    max-width: 800px;
-}
-
-#text-jens,
-#text-joakim {
-    max-width: 600px;
-}
-
 .portrait {
     border-radius: 10px;
     height: 100px;
@@ -193,6 +178,15 @@ section {
 #img-jens,
 #img-joakim {
     margin-right: 20px;
+}
+
+.name {
+    color: #F4F4F2;
+}
+
+#text-jens,
+#text-joakim {
+    max-width: 600px;
 }
 
 /* Our rides page*/
@@ -435,6 +429,10 @@ footer a {
         flex-direction: row-reverse;
         flex-wrap: nowrap;
         justify-content: space-between;
+    }
+
+    #img-joakim {
+        margin-left: 20px;
     }
 
 
