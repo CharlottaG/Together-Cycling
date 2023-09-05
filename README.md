@@ -146,6 +146,41 @@ Based on statistics from [Top Browsers Market Share - Most Popular Browsers in J
 
 Screen reading was tested using built-in browser functionality in Chrome.
 
+| Feature        | Expected Outcome | Chrome | Edge | Firefox | Safari |
+---------------  | ---------------- | ------ | ---- | ------- | ------ |
+| **Navigation bar** |
+| Logo link	| Take user to index page | Pass | Pass | Pass | ?|
+| Home link	| Take user to index page | Pass | Pass | Pass | ?|
+| Our Rides link | Take user to the Our Rides page | Pass | Pass | Pass | ?|
+| Ride with us link | Take user to the Ride with us page | Pass | Pass | Pass | ?||
+| Responsiveness | For screens up to 768px the navigation should be presented in an hamburger menu, while the navigation links should be visible in the header for screens larger than 768px | Pass | Pass | Pass | ?|
+| **Footer bar** |
+| Strava icon | Take user to strava.com | Pass | Pass | Pass | ?|
+| YouTube icon | Take user to youtube.com | Pass | Pass | Pass | ?|
+| Instragram icon | Take user to instagram.com | Pass | Pass | Pass | ?|
+| Contact icon | Open user's email client | Pass | Pass | Pass | ?|
+| Responsiveness | For screens up to 768px only the social media icons should be visible and the should be centered, while for screens larger than 768px the footer should show copyright information to the left and social media icons to the right| Pass | Pass | Pass | ?|
+| **Home page** |
+| Strava link Jens | Take user to strava.com | Pass | Pass | Pass | ?|
+| Strava link Joakim | Take user to strava.com | Pass | Pass | Pass | ?|
+| Image alt text |
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | ?|
+| Responsiveness |  The page has three content boxes where the second and the third will change depending on the screen size. For screens smaller than 768px the headshot images will be places above the text in the same box and the image size will be 100px, whereas for larger screens the images will be 200px and the text will appear on the right side of the image in the same box. | Pass | Pass | Pass | ?|
+| **Our Rides page** |
+| Google maps | The maps should be interactive and scrollable | Pass | Pass | Pass | ?|
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | ?|
+| Responsiveness |
+| **Ride with us page** |
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | ?|
+| Responsiveness | For screens larger than 768px, the signup form will appear to right of the page while the information about the intentions for the newsletter sign-up will appear to the left. For smaller screen the sign-up form will be the first piece of content as this is the most important content on the page, and when you cannot see all content at the same time the focus will be on the purpose of the page, to sign-up.	| Pass | Pass | Pass | ?|
+| **Sign-up form** |
+| First Name | The user should be prompted to enter text | Pass | Pass | Pass | ?|
+| Last Name	| The user should be prompted to enter text | Pass | Pass | Pass | ?|
+| Email Address	| The user should be prompted to enter a valid email address | Pass | Pass | Pass | ?|
+| GDPR checkbox	| User should be prompted to click this| Pass | Pass | Pass | ?|
+| Radio buttons	| User should be prompted to select one of these | Pass | Pass | Pass | ?|
+| Submit button	| Should return the collected info from the CI formdump page | Pass | Pass | Pass | ?|
+
 ### Validation
 
 **Home page:**
