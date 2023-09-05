@@ -24,6 +24,8 @@ The primary objective is to provide regularly updated group training opportuniti
 ### Color palette
 
 Colormind have been used to find matching colors.
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b3ee9966-1a09-433d-b40c-bd0c5fdbed7b)
+
 
 image.png
 
@@ -59,7 +61,10 @@ xxxx
 
 Each of the three pages have a different background image, seen below in their original state. For a more dramatic and consequential look a color gradient overlay with #312539 (dark lilac) to #BA567B (greyish pink) has been applied to all. The two colors was picked from the site’s color scheme.
 
-Image source: [https://unsplash.com/s/photos/](https://unsplash.com/s/photos/)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/6dcbc6f1-9a3b-4707-97be-c2ea04e351f2)
+
+
+Image source: [https://unsplash.com](https://unsplash.com)
 
 ### Icons
 
@@ -97,13 +102,21 @@ Fav icon used for the tab image comes from rawpixel and was generated through fa
 ### Pages
 
 - Home page:
-On the home page which is the index page, the user gets a clear understanding of what the site is about, the purpose and who is behind it.
+The home page (index page), presents the purpose of the page - Coming together on Peloton rides in the Stockholm area. The user can read about the people behind the site and get to know them a bit more. They can also click the links to visit the personal Strava profiles of the two site owners.
 
-- Rides page:
-This page contains information on scheduled rides with ride specifics and maps showing the route, which enables the cyclists to evaluate the planned rides to see if they match their needs and wants.
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/011287f7-fe45-4090-92e5-66966ab00e32)
+
+
+- Our Rides page:
+The Our Rides page provides information on scheduled rides information on when and where the group rides will take place, what type of ride it is and some information on the focus of the ride so that the user can assess wheather that specific ride is for them or not. The page also provides map to show the route if the user is just out to find inspiration on new rides. The maps are interactive and can be viewed in a larger format by clicking the top right icon in the black bar on top of the map, the maps can also be shared with others from the black top bar.
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/d3905ec9-0f98-4267-ac23-cf8ff223a3e7)
+
 
 - Ride with us page:
-Ride with us has a form to sign-up for a newsletter with information on scheduled rides and other updates. In the future this could potentially become a members page with a login to add personal information and order cycling clothes with the Together Cycling team logo.
+The Ride with us page contains a form to sign-up for a newsletter with information on scheduled rides and other updates. Together with the sign-up form there is information on the intent with the newsletter for the user to know what they are signing up for (or not). The sign-up form have three required fields to get the basic information about the user, and requires you to fill in an email address in order to submit the form. In the future this could potentially become a members page with a login to add personal information that can be used to present members the same way as the site owners (home page) and connect with eachother. 
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/9119e9eb-0111-4168-a28e-0a02beed5c50)
 
 ## Technologies
 
@@ -187,18 +200,22 @@ Screen reading was tested using built-in browser functionality in Chrome.
 **Home page:**
 There was an incorrect use of an aria-label attribute with a link, when that was corrected and two open tags were close the paged passed the validation.
 
-- <https://jigsaw.w3.org/css-validator/>
-- <https://validator.w3.org/>
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b21f8bd5-abc9-4a1e-99cb-297b990b14cc)
+
 - <https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
 - <https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fcharlottag.github.io%2FTogether-Cycling%2Frides.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext>
 
 **Rides page:**
 Had issues with the width and height attributes for the iframes, that were initially set to 100%. This had to be change to a numeric value and that caused some errors on the display of the elements. A new media query for smaller screens had to be added to accommodate the display on screens less than 380px.
 
-The google maps cause the page to perform bad.
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/7b1dcd3c-4f8c-4e1e-83eb-52e8b014ff8d)
+
 
 **Ride with us page:**
 No issues.
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/810660a7-7f30-474a-afd1-77319c147a91)
+
 
 ## Credits
 
