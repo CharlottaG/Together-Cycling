@@ -1,4 +1,3 @@
-<![endif]-->
 # Welcome
 
 
@@ -222,4 +221,4 @@ Copy is my own with help from open.ai to flesh out the text on the Ride with us 
 - Unsplash was used to find all other imagery, and Photoshop was used to convert the jpg files to webp files.
 - Colormind was used to find a color palette with colors for text, headings, background colors and overlays to use on the site. (<http://colormind.io/bootstrap/#>)
 
-- [EOF]
+[EOF]
