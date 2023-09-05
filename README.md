@@ -27,7 +27,7 @@ Colormind have been used to find matching colors.
 
 - Header and Footer color : #2C4658 (dark greyish blue)
 - Text : #F4F4F2 (white)
-- Headings :  #4EABA5 (greyish mint) or #F4F4F2 (white)
+- Headings :  #5AC4BE (greyish mint) or #F4F4F2 (white)
 - Call to action : #2C4658 (dark greyish blue)
 - Background colors : #312539 (dark lilac), #B2495E (greyish apricot)
 
