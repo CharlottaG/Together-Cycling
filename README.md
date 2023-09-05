@@ -11,7 +11,7 @@ The primary objective is to provide regularly updated group training opportuniti
 
 - As the organizer, I want to establish a cycling community where riders can connect, share their cycling experiences and enjoy group rides together.
 
-- As an experienced cyclist, I need easily accessible information on upcoming peleton rides in my area, which will enable me to join rides that suit my training goals and skill level.
+- As an experienced cyclist, I need easily accessible information on upcoming ton rides in my area, which will enable me to join rides that suit my training goals and skill level.
 
 - As an experienced cyclist, I seek an online source that provides a variety of inspiring routes and rides that help me stay motivated and continously challenge myself.
 
@@ -24,6 +24,8 @@ The primary objective is to provide regularly updated group training opportuniti
 ### Color palette
 
 Colormind have been used to find matching colors.
+
+image.png
 
 - Header and Footer color : #2C4658 (dark greyish blue)
 - Text : #F4F4F2 (white)
