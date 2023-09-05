@@ -262,7 +262,7 @@ iframe {
     border-top: 1px solid #312539;
 }
 
-/* Join page */
+/* Ride with us page */
 #join-page {
     height: 100%;
     width: 100%;
@@ -372,6 +372,7 @@ footer a {
 /* For extra small screens less than 380px */
 @media only screen and (max-width: 380px) {
 
+    /* Our Rides page*/
     iframe {
         height: 250px;
         width: 235px;
@@ -381,6 +382,32 @@ footer a {
 /* For screens 550px up to 767px */
 @media only screen and (min-width: 550px) and (max-width: 767px) {
 
+    /* Home page */
+    .portrait {
+        height: 150px;
+        width: 150px;
+    }
+
+    #container-jens {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    #container-joakim {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    #img-joakim {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    /* Our Rides page */
     .container-map-and-info {
         display: flex;
         flex-direction: row;
@@ -403,6 +430,19 @@ footer a {
     .description {
         padding-left: 0px;
     }
+
+    /* Ride with us page*/
+    #container-form {
+        width: 400px;
+        margin: auto;
+    }
+
+    #form {
+        margin-bottom: 0px;
+        padding: 20px;
+    }
+
+
 }
 
 /* For screens 768px and larger */
@@ -433,7 +473,7 @@ footer a {
     }
 
     .content-box {
-        max-width: 800px;
+        max-width: 900px;
         margin: auto;
     }
 
