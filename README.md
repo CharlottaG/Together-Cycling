@@ -144,7 +144,7 @@ The Ride with us page contains a form to sign-up for a newsletter with informati
 
 In order to ensure accessibility for all users, irrespective of their internet connection speed or potential disabilities, the below things have been implemented in the code and design of the web page.
 
-* Structural Elements: I've employed the use of semantic HTML elements such as <header>, <main>, <footer>, and <section> to help organize the content and improve the overall accessibility of the page.
+* Structural Elements: I've employed the use of semantic HTML elements such as *header*, *main*, *footer*, and *section* to help organize the content and improve the overall accessibility of the page.
 
 * Alternative Text and ARIA Labels: Throughout the website, I've incorporated descriptive alt-text for images and used ARIA labels to facilitate screen reading, to make the site available for users with visual impairments so they can understand the content and functionality of images and other interactive elements.
 
@@ -160,53 +160,53 @@ xxx
 
 Testing of the site functionalities was performed on:
 
-- Laptop: Dell 5430
-- iPhone 13
-- iPad 9
+- Laptop: Dell 5430, Windows 10, running Chrome, Edge or Firefox (1920x1080 monitor)
+- iPhone 13, running Safari (6.1" diagonal)
+- iPad 9, running Safari (10.2" diagonal)
 
 Based on statistics from [Top Browsers Market Share - Most Popular Browsers in July 2023 | Similarweb](https://www.similarweb.com/browsers/) all testing was done using:
 
-- Google Chrome
-- Safari
-- Microsoft Edge
-- Mozilla Firefox
+1. Google Chrome
+2. Apple Safari
+3. Microsoft Edge
+4. Mozilla Firefox
 
 Screen reading was tested using built-in browser functionality in Chrome.
 
 | Feature        | Expected Outcome | Chrome | Edge | Firefox | Safari |
 ---------------  | ---------------- | ------ | ---- | ------- | ------ |
 | **Navigation bar** |
-| Logo link	| Take user to index page | Pass | Pass | Pass | ?|
-| Home link	| Take user to index page | Pass | Pass | Pass | ?|
-| Our Rides link | Take user to the Our Rides page | Pass | Pass | Pass | ?|
-| Ride with us link | Take user to the Ride with us page | Pass | Pass | Pass | ?||
-| Responsiveness | For screens up to 768px the navigation should be presented in an hamburger menu, while the navigation links should be visible in the header for screens larger than 768px | Pass | Pass | Pass | ?|
+| Logo link	| Take user to index page | Pass | Pass | Pass | Pass|
+| Home link	| Take user to index page | Pass | Pass | Pass | Pass|
+| Our Rides link | Take user to the Our Rides page | Pass | Pass | Pass | Pass|
+| Ride with us link | Take user to the Ride with us page | Pass | Pass | Pass | Pass||
+| Responsiveness | For screens up to 768px the navigation should be presented in an hamburger menu, while the navigation links should be visible in the header for screens larger than 768px | Pass | Pass | Pass | Pass|
 | **Footer bar** |
-| Strava icon | Take user to strava.com | Pass | Pass | Pass | ?|
-| YouTube icon | Take user to youtube.com | Pass | Pass | Pass | ?|
-| Instragram icon | Take user to instagram.com | Pass | Pass | Pass | ?|
-| Contact icon | Open user's email client | Pass | Pass | Pass | ?|
-| Responsiveness | For screens up to 768px only the social media icons should be visible and the should be centered, while for screens larger than 768px the footer should show copyright information to the left and social media icons to the right| Pass | Pass | Pass | ?|
+| Strava icon | Take user to strava.com | Pass | Pass | Pass | Pass|
+| YouTube icon | Take user to youtube.com | Pass | Pass | Pass | Pass|
+| Instragram icon | Take user to instagram.com | Pass | Pass | Pass | Pass|
+| Contact icon | Open user's email client | Pass | Pass | Pass | Pass|
+| Responsiveness | For screens up to 768px only the social media icons should be visible and the should be centered, while for screens larger than 768px the footer should show copyright information to the left and social media icons to the right| Pass | Pass | Pass | Pass|
 | **Home page** |
-| Strava link Jens | Take user to strava.com | Pass | Pass | Pass | ?|
-| Strava link Joakim | Take user to strava.com | Pass | Pass | Pass | ?|
+| Strava link Jens | Take user to strava.com | Pass | Pass | Pass | Pass|
+| Strava link Joakim | Take user to strava.com | Pass | Pass | Pass | Pass|
 | Image alt text |
-| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | ?|
-| Responsiveness |  The page has three content boxes where the second and the third will change depending on the screen size. For screens smaller than 768px the headshot images will be places above the text in the same box and the image size will be 100px, whereas for larger screens the images will be 200px and the text will appear on the right side of the image in the same box. | Pass | Pass | Pass | ?|
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass|
+| Responsiveness |  The page has three content boxes where the second and the third will change depending on the screen size. For screens smaller than 768px the headshot images will be places above the text in the same box and the image size will be 100px, whereas for larger screens the images will be 200px and the text will appear on the right side of the image in the same box. | Pass | Pass | Pass | Pass|
 | **Our Rides page** |
-| Google maps | The maps should be interactive and scrollable | Pass | Pass | Pass | ?|
-| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | ?|
+| Google maps | The maps should be interactive and scrollable | Pass | Pass | Pass | Pass|
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass|
 | Responsiveness |
 | **Ride with us page** |
-| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | ?|
-| Responsiveness | For screens larger than 768px, the signup form will appear to right of the page while the information about the intentions for the newsletter sign-up will appear to the left. For smaller screen the sign-up form will be the first piece of content as this is the most important content on the page, and when you cannot see all content at the same time the focus will be on the purpose of the page, to sign-up.	| Pass | Pass | Pass | ?|
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass|
+| Responsiveness | For screens larger than 768px, the signup form will appear to right of the page while the information about the intentions for the newsletter sign-up will appear to the left. For smaller screen the sign-up form will be the first piece of content as this is the most important content on the page, and when you cannot see all content at the same time the focus will be on the purpose of the page, to sign-up.	| Pass | Pass | Pass | Pass|
 | **Sign-up form** |
-| First Name | The user should be prompted to enter text | Pass | Pass | Pass | ?|
-| Last Name	| The user should be prompted to enter text | Pass | Pass | Pass | ?|
-| Email Address	| The user should be prompted to enter a valid email address | Pass | Pass | Pass | ?|
-| GDPR checkbox	| User should be prompted to click this| Pass | Pass | Pass | ?|
-| Radio buttons	| User should be prompted to select one of these | Pass | Pass | Pass | ?|
-| Submit button	| Should return the collected info from the CI formdump page | Pass | Pass | Pass | ?|
+| First Name | The user should be prompted to enter text | Pass | Pass | Pass | Pass|
+| Last Name	| The user should be prompted to enter text | Pass | Pass | Pass | Pass|
+| Email Address	| The user should be prompted to enter a valid email address | Pass | Pass | Pass | Pass|
+| GDPR checkbox	| User should be prompted to click this| Pass | Pass | Pass | Pass|
+| Radio buttons	| User should be prompted to select one of these | Pass | Pass | Pass | Pass|
+| Submit button	| Should return the collected info from the CI formdump page | Pass | Pass | Pass | Pass|
 
 ### Validation
 
@@ -216,7 +216,7 @@ There was an incorrect use of an aria-label attribute with a link, when that was
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b21f8bd5-abc9-4a1e-99cb-297b990b14cc)
 
 - <https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
-- <https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fcharlottag.github.io%2FTogether-Cycling%2Frides.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext>
+- <https://googlechrome.github.io/lighthouse/viewer/Passpsiurl=https%3A%2F%2Fcharlottag.github.io%2FTogether-Cycling%2Frides.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext>
 
 **Rides page:**
 Had issues with the width and height attributes for the iframes, that were initially set to 100%. This had to be change to a numeric value and that caused some errors on the display of the elements. A new media query for smaller screens had to be added to accommodate the display on screens less than 380px.
@@ -238,9 +238,11 @@ xxx
 
 ### Code used
 
-* Navbar: Code used from the CodeInstitute learning project - Love Running
+- Navbar: Code used from the CodeInstitute learning project - Love Running
 - Autocomplete feature on the form was inspired by: <https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#values>
-- Tricks for the mailto-link to use target-blank feature for web based email clients to open in new window to avoid surprises, and using the noreferrer for privacy reasons. [https://css-tricks.com/all-about-mailto-links/](https://css-tricks.com/all-about-mailto-links/)
+- Tricks for the mailto-link to use target-blank feature for web based email clients to open in new window to avoid surprises, and using the *noreferrer* for privacy reasons. [https://css-tricks.com/all-about-mailto-links/](https://css-tricks.com/all-about-mailto-links/)
+- Gradient color overlay: Code used [background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");] from https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio
+- Google maps - used the embed code provided by Google.
 
 ### Content
 
