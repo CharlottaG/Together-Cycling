@@ -98,7 +98,7 @@ Fav icon used for the tab image comes from rawpixel and was generated through fa
 
 ### Pages
 
-- *Home page*:
+#### Home page:
 
 The home page (index page), presents the purpose of the page - Coming together on Peloton rides in the Stockholm area. The user can read about the people behind the site and get to know them a bit more. They can also click the links to visit the personal Strava profiles of the two site owners.
 
@@ -107,7 +107,7 @@ The home page (index page), presents the purpose of the page - Coming together o
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/abab1114-4aad-4cf0-a090-2b776ad5482b)
 
-- *Our Rides page*:
+#### Our Rides page:
 
 The Our Rides page provides information on scheduled rides information on when and where the group rides will take place, what type of ride it is and some information on the focus of the ride so that the user can assess wheather that specific ride is for them or not. The page also provides map to show the route if the user is just out to find inspiration on new rides. The maps are interactive and can be viewed in a larger format by clicking the top right icon in the black bar on top of the map, the maps can also be shared with others from the black top bar.
 
@@ -116,9 +116,11 @@ The Our Rides page provides information on scheduled rides information on when a
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/3d4faaa7-1f25-4607-be60-398accef331c)
 
-- *Ride with us page*:
+#### Ride with us page:
 
 The Ride with us page contains a form to sign-up for a newsletter with information on scheduled rides and other updates. Together with the sign-up form there is information on the intent with the newsletter for the user to know what they are signing up for (or not). The sign-up form have three required fields to get the basic information about the user, and requires you to fill in an email address in order to submit the form. In the future this could potentially become a members page with a login to add personal information that can be used to present members the same way as the site owners (home page) and connect with eachother. 
+
+*For UX reasons* the order of the content will change depending on if the page is viewed using a mobile or a tablet/laptop. On mobiles the sign-up form is prioritized as the most important content while at larger screens where you can overview all content at the same time, the user is presented with the intent information first.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/dc70114f-342b-426d-897a-d6310ccffd4b)
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/bdbda4f9-5b07-4fa5-a880-3e38398768a5)
@@ -132,7 +134,7 @@ The Ride with us page contains a form to sign-up for a newsletter with informati
 - Codeanywhere for code editing
 
 **Imagery**
-*Photoshop to convert images to webP files, and resizing.
+* Photoshop to convert images to webP files, and resizing.
 
 **Content**
 - Font Awesome: to generate icons used on the page.
