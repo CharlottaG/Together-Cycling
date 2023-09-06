@@ -26,9 +26,6 @@ The primary objective is to provide regularly updated group training opportuniti
 Colormind have been used to find matching colors.
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b3ee9966-1a09-433d-b40c-bd0c5fdbed7b)
 
-
-image.png
-
 - Header and Footer color : #2C4658 (dark greyish blue)
 - Text : #F4F4F2 (white)
 - Headings :  #5AC4BE (greyish mint) or #F4F4F2 (white)
@@ -39,7 +36,7 @@ image.png
 
 ### Typography
 
-Google fonts have been used for this site.
+The below Google fonts have been used for this site.
 
 - Logo: Bricolage Grotesque, Extra Bold 800
 
@@ -101,26 +98,36 @@ Fav icon used for the tab image comes from rawpixel and was generated through fa
 
 ### Pages
 
-- Home page:
+- *Home page*:
+
 The home page (index page), presents the purpose of the page - Coming together on Peloton rides in the Stockholm area. The user can read about the people behind the site and get to know them a bit more. They can also click the links to visit the personal Strava profiles of the two site owners.
 
-![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/011287f7-fe45-4090-92e5-66966ab00e32)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/9ed99915-354d-44da-a726-6625be427b6e)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/69aadfd7-95ce-4bca-96e5-68fd3d040212)
 
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/abab1114-4aad-4cf0-a090-2b776ad5482b)
 
-- Our Rides page:
+- *Our Rides page*:
+
 The Our Rides page provides information on scheduled rides information on when and where the group rides will take place, what type of ride it is and some information on the focus of the ride so that the user can assess wheather that specific ride is for them or not. The page also provides map to show the route if the user is just out to find inspiration on new rides. The maps are interactive and can be viewed in a larger format by clicking the top right icon in the black bar on top of the map, the maps can also be shared with others from the black top bar.
 
-![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/d3905ec9-0f98-4267-ac23-cf8ff223a3e7)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/3fe7b2f0-0d7e-4862-8ca7-4a5661e69c2b)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/8e92d4b2-007f-4183-b52c-9bf4fc079a71)
 
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/3d4faaa7-1f25-4607-be60-398accef331c)
 
-- Ride with us page:
+- *Ride with us page*:
+
 The Ride with us page contains a form to sign-up for a newsletter with information on scheduled rides and other updates. Together with the sign-up form there is information on the intent with the newsletter for the user to know what they are signing up for (or not). The sign-up form have three required fields to get the basic information about the user, and requires you to fill in an email address in order to submit the form. In the future this could potentially become a members page with a login to add personal information that can be used to present members the same way as the site owners (home page) and connect with eachother. 
 
-![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/9119e9eb-0111-4168-a28e-0a02beed5c50)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/dc70114f-342b-426d-897a-d6310ccffd4b)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/bdbda4f9-5b07-4fa5-a880-3e38398768a5)
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/fcf0336e-9c2d-4f0c-8a6d-e0131df4c67e)
 
 ## Technologies
 
-**HTML, CSS and Git commands**
+**HTML, CSS**
 - GitHub for storing repository
 - Codeanywhere for code editing
 
@@ -135,7 +142,13 @@ The Ride with us page contains a form to sign-up for a newsletter with informati
 
 ## Accessibility
 
-I have used header, main and footer elements, as well as section elements to make the page accessible and easy to consume for people with disabilities or slow internet connections. Aria-labels and alt-text on images have been used consistently for screen reading or in the case of images not loading properly. Images have been converted to webP to improve site performance, as well as resizing the images to the smallest possible size with kept quality.
+In order to ensure accessibility for all users, irrespective of their internet connection speed or potential disabilities, the below things have been implemented in the code and design of the web page.
+
+* Structural Elements: I've employed the use of semantic HTML elements such as <header>, <main>, <footer>, and <section> to help organize the content and improve the overall accessibility of the page.
+
+* Alternative Text and ARIA Labels: Throughout the website, I've incorporated descriptive alt-text for images and used ARIA labels to facilitate screen reading, to make the site available for users with visual impairments so they can understand the content and functionality of images and other interactive elements.
+
+Image Optimization: To enhance site performance and accommodate users on slow internet connections, I've converted images to the WebP format, which offers better compression without sacrificing quality. Additionally, I've resized images to their smallest possible dimensions while maintaining their visual integrity. This improves page load times without compromising content quality.
 
 ## Deployment
 
