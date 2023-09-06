@@ -1,5 +1,6 @@
 # Welcome
 
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/9b048ce5-cb73-4815-8c73-94bb41508a44)
 
 ## Purpose and target audience
 
@@ -164,6 +165,7 @@ Testing of the site functionalities was performed on:
 
 - Laptop: Dell 5430, Windows 10, running Chrome, Edge or Firefox (1920x1080 monitor)
 - iPhone 13, running Safari (6.1" diagonal)
+- Samsung Galaxy S23, Android (6.1" diagonal)
 - iPad 9, running Safari (10.2" diagonal)
 
 Based on statistics from [Top Browsers Market Share - Most Popular Browsers in July 2023 | Similarweb](https://www.similarweb.com/browsers/) all testing was done using:
@@ -172,43 +174,44 @@ Based on statistics from [Top Browsers Market Share - Most Popular Browsers in J
 2. Apple Safari
 3. Microsoft Edge
 4. Mozilla Firefox
+5. Android
 
 Screen reading was tested using built-in browser functionality in Chrome.
 
-| Feature        | Expected Outcome | Chrome | Edge | Firefox | Safari |
----------------  | ---------------- | ------ | ---- | ------- | ------ |
+| Feature        | Expected Outcome | Chrome | Edge | Firefox | Safari | Android |
+---------------  | ---------------- | ------ | ---- | ------- | ------ | ------- |
 | **Navigation bar** |
-| Logo link	| Take user to index page | Pass | Pass | Pass | Pass|
-| Home link	| Take user to index page | Pass | Pass | Pass | Pass|
-| Our Rides link | Take user to the Our Rides page | Pass | Pass | Pass | Pass|
-| Ride with us link | Take user to the Ride with us page | Pass | Pass | Pass | Pass||
-| Responsiveness | For screens up to 768px the navigation should be presented in an hamburger menu, while the navigation links should be visible in the header for screens larger than 768px | Pass | Pass | Pass | Pass|
+| Logo link	| Take user to index page | Pass | Pass | Pass | Pass | Pass |
+| Home link	| Take user to index page | Pass | Pass | Pass | Pass| Pass |
+| Our Rides link | Take user to the Our Rides page | Pass | Pass | Pass | Pass| Pass |
+| Ride with us link | Take user to the Ride with us page | Pass | Pass | Pass | Pass| Pass |
+| Responsiveness | For screens up to 768px the navigation should be presented in an hamburger menu, while the navigation links should be visible in the header for screens larger than 768px | Pass | Pass | Pass | Pass| Pass |
 | **Footer bar** |
-| Strava icon | Take user to strava.com | Pass | Pass | Pass | Pass|
-| YouTube icon | Take user to youtube.com | Pass | Pass | Pass | Pass|
-| Instragram icon | Take user to instagram.com | Pass | Pass | Pass | Pass|
-| Contact icon | Open user's email client | Pass | Pass | Pass | Pass|
-| Responsiveness | For screens up to 768px only the social media icons should be visible and the should be centered, while for screens larger than 768px the footer should show copyright information to the left and social media icons to the right| Pass | Pass | Pass | Pass|
+| Strava icon | Take user to strava.com | Pass | Pass | Pass | Pass| Pass |
+| YouTube icon | Take user to youtube.com | Pass | Pass | Pass | Pass| Pass |
+| Instragram icon | Take user to instagram.com | Pass | Pass | Pass | Pass| Pass |
+| Contact icon | Open user's email client | Pass | Pass | Pass | Pass| Pass |
+| Responsiveness | For screens up to 768px only the social media icons should be visible and the should be centered, while for screens larger than 768px the footer should show copyright information to the left and social media icons to the right| Pass | Pass | Pass | Pass| Pass |
 | **Home page** |
-| Strava link Jens | Take user to strava.com | Pass | Pass | Pass | Pass|
-| Strava link Joakim | Take user to strava.com | Pass | Pass | Pass | Pass|
+| Strava link Jens | Take user to strava.com | Pass | Pass | Pass | Pass| Pass |
+| Strava link Joakim | Take user to strava.com | Pass | Pass | Pass | Pass| Pass |
 | Image alt text |
 | Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass|
-| Responsiveness |  The page has three content boxes where the second and the third will change depending on the screen size. For screens smaller than 768px the headshot images will be places above the text in the same box and the image size will be 100px, whereas for larger screens the images will be 200px and the text will appear on the right side of the image in the same box. | Pass | Pass | Pass | Pass|
+| Responsiveness |  The page has three content boxes where the second and the third will change depending on the screen size. For screens smaller than 768px the headshot images will be places above the text in the same box and the image size will be 100px, whereas for larger screens the images will be 200px and the text will appear on the right side of the image in the same box. | Pass | Pass | Pass | Pass| Pass |
 | **Our Rides page** |
-| Google maps | The maps should be interactive and scrollable | Pass | Pass | Pass | Pass|
-| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass|
-| Responsiveness |
+| Google maps | The maps should be interactive and scrollable | Pass | Pass | Pass | Pass| Pass |
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass | Pass |
+| Responsiveness | When viewed on mobile all content should be displayed as one column, whereas it will be two columns, one for the maps and one for the text, on screens larger 550px and for screens larger than that the maps will flow and fit the screen, e.i. as soon as there's room for one more map it will be on the top line. This is to allow for more maps to be added. | Pass | Pass | Pass | Pass| Pass |
 | **Ride with us page** |
-| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass|
-| Responsiveness | For screens larger than 768px, the signup form will appear to right of the page while the information about the intentions for the newsletter sign-up will appear to the left. For smaller screen the sign-up form will be the first piece of content as this is the most important content on the page, and when you cannot see all content at the same time the focus will be on the purpose of the page, to sign-up.	| Pass | Pass | Pass | Pass|
+| Fallback color | Should show a dark lilac background color if the background image with gradient overlay does not load | Pass | Pass | Pass | Pass |Pass |
+| Responsiveness | For screens larger than 768px, the signup form will appear to right of the page while the information about the intentions for the newsletter sign-up will appear to the left. For smaller screen the sign-up form will be the first piece of content as this is the most important content on the page, and when you cannot see all content at the same time the focus will be on the purpose of the page, to sign-up.	| Pass | Pass | Pass | Pass |Pass |
 | **Sign-up form** |
-| First Name | The user should be prompted to enter text | Pass | Pass | Pass | Pass|
-| Last Name	| The user should be prompted to enter text | Pass | Pass | Pass | Pass|
-| Email Address	| The user should be prompted to enter a valid email address | Pass | Pass | Pass | Pass|
-| GDPR checkbox	| User should be prompted to click this| Pass | Pass | Pass | Pass|
-| Radio buttons	| User should be prompted to select one of these | Pass | Pass | Pass | Pass|
-| Submit button	| Should return the collected info from the CI formdump page | Pass | Pass | Pass | Pass|
+| First Name | The user should be prompted to enter text | Pass | Pass | Pass | Pass |Pass |
+| Last Name	| The user should be prompted to enter text | Pass | Pass | Pass | Pass | Pass |
+| Email Address	| The user should be prompted to enter a valid email address | Pass | Pass | Pass | Pass | Pass |
+| GDPR checkbox	| User should be prompted to click this| Pass | Pass | Pass | Pass | Pass |
+| Radio buttons	| User should be prompted to select one of these | Pass | Pass | Pass | Pass | Pass |
+| Submit button	| Should return the collected info from the CI formdump page | Pass | Pass | Pass | Pass | Pass |
 
 ### Validation
 
@@ -216,7 +219,9 @@ Screen reading was tested using built-in browser functionality in Chrome.
 There was an incorrect use of an aria-label attribute with a link, when that was corrected and two open tags were close the paged passed the validation.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b21f8bd5-abc9-4a1e-99cb-297b990b14cc)
+
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/880211ac-78bc-44b3-a4d0-14cd515f2517)
+
 <https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
 
 
@@ -224,6 +229,7 @@ There was an incorrect use of an aria-label attribute with a link, when that was
 Had issues with the width and height attributes for the iframes, that were initially set to 100%. This had to be change to a numeric value and that caused some errors on the display of the elements. A new media query for smaller screens had to be added to accommodate the display on screens less than 380px.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/7b1dcd3c-4f8c-4e1e-83eb-52e8b014ff8d)
+
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e8d733f0-c101-4b8d-b7f4-c52f2618768a)
 
 
@@ -232,6 +238,7 @@ Had issues with the width and height attributes for the iframes, that were initi
 No issues.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/810660a7-7f30-474a-afd1-77319c147a91)
+
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/faef8e2f-c866-48e3-adc0-50b1f60e63ae)
 
 
@@ -240,7 +247,7 @@ No issues.
 
 ### Acknowledgement
 
-I'd lik to thanks *Luke Buchanan, my mentor at Code Institute*, for invaluable guidance and support as well as insightful constructive feedback throughout the duration of the this project.
+I'd like to thank *Luke Buchanan, my mentor at Code Institute*, for invaluable guidance and support as well as insightful constructive feedback throughout the duration of the this project.
 
 ### Code used
 
