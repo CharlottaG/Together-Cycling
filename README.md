@@ -1,6 +1,6 @@
 # Welcome
 
-![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/9b048ce5-cb73-4815-8c73-94bb41508a44)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e2f03519-e6b3-4c37-ada3-2ef55049a212)
 
 ## Purpose and target audience
 
