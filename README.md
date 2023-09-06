@@ -216,27 +216,31 @@ Screen reading was tested using built-in browser functionality in Chrome.
 There was an incorrect use of an aria-label attribute with a link, when that was corrected and two open tags were close the paged passed the validation.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b21f8bd5-abc9-4a1e-99cb-297b990b14cc)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/880211ac-78bc-44b3-a4d0-14cd515f2517)
+<https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
 
-- <https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
-- <https://googlechrome.github.io/lighthouse/viewer/Passpsiurl=https%3A%2F%2Fcharlottag.github.io%2FTogether-Cycling%2Frides.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext>
 
 **Rides page:**
 Had issues with the width and height attributes for the iframes, that were initially set to 100%. This had to be change to a numeric value and that caused some errors on the display of the elements. A new media query for smaller screens had to be added to accommodate the display on screens less than 380px.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/7b1dcd3c-4f8c-4e1e-83eb-52e8b014ff8d)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e8d733f0-c101-4b8d-b7f4-c52f2618768a)
+
 
 
 **Ride with us page:**
 No issues.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/810660a7-7f30-474a-afd1-77319c147a91)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/faef8e2f-c866-48e3-adc0-50b1f60e63ae)
+
 
 
 ## Credits
 
 ### Acknowledgement
 
-xxx
+I'd lik to thanks *Luke Buchanan, my mentor at Code Institute*, for invaluable guidance and support as well as insightful constructive feedback throughout the duration of the this project.
 
 ### Code used
 
