@@ -1,6 +1,38 @@
-# Welcome
+# Together Cycling
+Together Cycling is an online platform dedicated to the cycling community, created by and for passionate cyclists. The primary mission is to enhance the cycling experience by organizing and enabling group cycling training rides, and  empower cyclists to connect and embark on exhilarating group training sessions.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e2f03519-e6b3-4c37-ada3-2ef55049a212)
+
+## Table of contents
+* [Purpose and target audience](#purpose-and-target-audience)
+* [User stories](#user-stories)
+* [Design](#design)
+	* [Color-palette](#color-palette)
+	* [Typography](#typography)
+	* [Wireframes](#wireframes)
+	* [Imagery](#imagery)
+	* [Icons](#icons)
+* [Pages and Features](#pages-and-features)
+	* [General-Features](#general-features)
+	* [Pages](#pages)
+	* [Home page](#home-page)
+	* [Our Rides page](#our-rides-page)
+	* [Ride with us page](#ride-with-us-page)
+* [Technologies](#technologies)
+	* [HTML and CSS](#html-and-css)
+	* [Imagery](#imagery)
+	* [Content](#content)
+* [Accessibility](#accessibility)
+* [Testing and Validation](#testing-and-validation)
+	* [Testing](#testing)
+	* [Validation](#validation)
+* [Credits](#credits)
+	* [Acknowledgement](#acknowledgement)
+	* [Code used](#code-used)
+	* [Content](#content)
+	* [Media](#media)
+
+   ---
 
 ## Purpose and target audience
 
@@ -10,15 +42,15 @@ The primary objective is to provide regularly updated group training opportuniti
 
 ### User stories
 
-- As the organizer, I want to establish a cycling community where riders can connect, share their cycling experiences and enjoy group rides together.
+- **As the organizer**, I want to establish a cycling community where riders can connect, share their cycling experiences and enjoy group rides together.
 
-- As an experienced cyclist, I need easily accessible information on upcoming ton rides in my area, which will enable me to join rides that suit my training goals and skill level.
+- **As an experienced cyclist**, I need easily accessible information on upcoming ton rides in my area, which will enable me to join rides that suit my training goals and skill level.
 
-- As an experienced cyclist, I seek an online source that provides a variety of inspiring routes and rides that help me stay motivated and continously challenge myself.
+- **As an experienced cyclist**, I seek an online source that provides a variety of inspiring routes and rides that help me stay motivated and continously challenge myself.
 
-- As a cyclist new to peloton riding, I'm eager to learn the ropes of riding in a group and need resources and guidance that help me ride safely and confidently in a peloton.
+- **As a cyclist new to peloton riding**, I'm eager to learn the ropes of riding in a group and need resources and guidance that help me ride safely and confidently in a peloton.
 
-- As a prospective member considering joining the group, I want to learn more about the individuals behind this cycling community. Understanding their vision will help me evaluate if it aligns with my interests.
+- **As a prospective member considering joining the group**, I want to learn more about the individuals behind this cycling community. Understanding their vision will help me evaluate if it aligns with my interests.
 
 ## Design
 
@@ -83,7 +115,7 @@ Icons used come from Font Awesome
 Fav icon used for the tab image comes from rawpixel and was generated through favicon.io to get all the versions supported by the different browsers.
 <https://favicon.io/>
 
-## Pages & Features
+## Pages and Features
 
 ### General Features
 
@@ -137,7 +169,7 @@ The Ride with us page contains a form to sign-up for a newsletter with informati
 
 ## Technologies
 
-### HTML, CSS
+### HTML and CSS
 
 - GitHub for storing repository
 - Codeanywhere for code editing
@@ -167,7 +199,7 @@ Image Optimization: To enhance site performance and accommodate users on slow in
 
 xxx
 
-## Testing & Validation
+## Testing and Validation
 
 ### Testing
 
