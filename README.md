@@ -56,7 +56,7 @@ The primary objective is to provide regularly updated group training opportuniti
 
 ### Color palette
 
-Colormind have been used to find matching colors.
+[Colormind](http://colormind.io/bootstrap/) have been used to find matching colors.
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b3ee9966-1a09-433d-b40c-bd0c5fdbed7b)
 
 - Header and Footer color : #2C4658 (dark greyish blue)
@@ -64,8 +64,6 @@ Colormind have been used to find matching colors.
 - Headings :  #5AC4BE (greyish mint) or #F4F4F2 (white)
 - Call to action : #2C4658 (dark greyish blue)
 - Background colors : #312539 (dark lilac), #B2495E (greyish apricot)
-
-<http://colormind.io/bootstrap/>
 
 ### Typography
 
@@ -97,11 +95,9 @@ Wireframes was created using draw.io.
 
 ### Imagery
 
-Each of the three pages have a different background image, seen below in their original state. For a more dramatic and consequential look a color gradient overlay with #312539 (dark lilac) to #BA567B (greyish pink) has been applied to all. The two colors was picked from the site’s color scheme.
+Each of the three pages have a different background image, these were downloaded from [Unsplash](https://unsplash.com) a free stock image site with high-quality photos. For a more dramatic and consequential look a color gradient overlay with #312539 (dark lilac) to #BA567B (greyish pink) has been applied to all. The two colors was picked from the site’s color scheme.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/6dcbc6f1-9a3b-4707-97be-c2ea04e351f2)
-
-Image source: [https://unsplash.com](https://unsplash.com)
 
 ### Icons
 
@@ -112,8 +108,7 @@ Icons used come from Font Awesome
 - YouTube
 - Contact/Mail to
 
-Fav icon used for the tab image comes from rawpixel and was generated through favicon.io to get all the versions supported by the different browsers.
-<https://favicon.io/>
+Fav icon used for the tab image comes from [Rawpixel](https://www.rawpixel.com/) and was generated through [Favicon](https://favicon.io/) to get all the versions supported by the different browsers.
 
 ## Pages and Features
 
@@ -180,10 +175,10 @@ The Ride with us page contains a form to sign-up for a newsletter with informati
 
 ### Content
 
-- Font Awesome: to generate icons used on the page.
-- Favicon generator: to generate the fav icon on the tab next to the title.
-- Google Fonts: to find the fonts used on the page and to get the code to embed on the page.
-- Google maps/My maps: to generate the rides shared on the rides page.
+- [Font Awesome](https://fontawesome.com/start): to generate icons used on the page.
+- [Favicon generator](https://favicon.io/): to generate the fav icon on the tab next to the title.
+- [Google Fonts](https://fonts.google.com/): to find the fonts used on the page and to get the code to embed on the page.
+- [Google maps/My maps](https://www.google.com/maps/d/): to generate the rides shared on the rides page.
 
 ## Accessibility
 
@@ -197,7 +192,7 @@ Image Optimization: To enhance site performance and accommodate users on slow in
 
 ## Deployment
 
-xxx
+
 
 ## Testing and Validation
 
@@ -257,7 +252,7 @@ Screen reading was tested using built-in browser functionality in Chrome.
 
 ### Validation
 
-**Home page:**
+####Home page####
 There was an incorrect use of an aria-label attribute with a link, when that was corrected and two open tags were close the paged passed the validation.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b21f8bd5-abc9-4a1e-99cb-297b990b14cc)
@@ -266,14 +261,14 @@ There was an incorrect use of an aria-label attribute with a link, when that was
 
 <https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
 
-**Rides page:**
+####Rides page####
 Had issues with the width and height attributes for the iframes, that were initially set to 100%. This had to be change to a numeric value and that caused some errors on the display of the elements. A new media query for smaller screens had to be added to accommodate the display on screens less than 380px.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/7b1dcd3c-4f8c-4e1e-83eb-52e8b014ff8d)
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e8d733f0-c101-4b8d-b7f4-c52f2618768a)
 
-**Ride with us page:**
+####Ride with us page####
 No issues.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/810660a7-7f30-474a-afd1-77319c147a91)
@@ -288,11 +283,19 @@ I'd like to thank *Luke Buchanan, my mentor at Code Institute*, for invaluable g
 
 ### Code used
 
-- Navbar: Code used from the CodeInstitute learning project - Love Running
-- Autocomplete feature on the form was inspired by: <https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#values>
-- Tricks for the mailto-link to use target-blank feature for web based email clients to open in new window to avoid surprises, and using the *noreferrer* for privacy reasons. [https://css-tricks.com/all-about-mailto-links/](https://css-tricks.com/all-about-mailto-links/)
-- Gradient color overlay: Code used [background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");] from <https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio>
-- Google maps - used the embed code provided by Google.
+- Navbar: Inspired by the code used from the CodeInstitute learning project - Love Running project
+  ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/34eb255b-66b6-4ead-aa3b-86efd66f89c8)
+
+- Autocomplete feature on the form was inspired by [Mozilla org](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#values)
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/8ce957af-a320-4990-882f-440875066cb7)
+
+- Using target-blank for the mailto-link to enable web based email clients to open in new window and thus avoid surprises, and using the *noreferrer* for privacy reasons was inspired by [CSS Tricks](https://css-tricks.com/all-about-mailto-links/)
+- Gradient color overlay code used from [DEV Community](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio):
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/8606a4eb-5fed-4d6e-91cc-ba4987ef94be)
+
+- Google maps - used the embed code provided by Google. Example: 
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/a4c72a63-7d30-4e48-a441-f5c9cd27683a)
+
 
 ### Content
 
@@ -300,9 +303,9 @@ Copy is my own with help from open.ai to flesh out the text on the Ride with us 
 
 ### Media
 
-- Rawpixel was used to find a fav-icon for the tab. (<https://www.rawpixel.com>)
-- Favicon converter was used to generate the different files supported by different browsers. (<https://favicon.io/favicon-converter/>)
-- Unsplash was used to find all other imagery, and Photoshop was used to convert the jpg files to webp files.
-- Colormind was used to find a color palette with colors for text, headings, background colors and overlays to use on the site. (<http://colormind.io/bootstrap/#>)
+- [Rawpixel](https://www.rawpixel.com) was used to find a fav-icon for the tab. 
+- [Favicon converter](https://favicon.io/favicon-converter/) was used to generate the different files supported by different browsers. 
+- [Unsplash](https://unsplash.com/)was used to find all other imagery, and Photoshop was used to convert the jpg files to webp files.
+- [Colormind](http://colormind.io/bootstrap>) was used to find a color palette with colors for text, headings, background colors and overlays to use on the site. 
 
 [EOF]
