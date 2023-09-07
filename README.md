@@ -53,7 +53,15 @@ The below Google fonts have been used for this site.
 
 ### Wireframes
 
-xxxx
+Wireframes was created using draw.io.
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/f35e8bd0-8a2b-44d2-a201-d68fea013542)
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/ee639e49-740c-417c-b1b0-549f9c1c3c1d)
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/cf233feb-5243-4cbc-9192-5d9ea4da8cff)
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/49ec47a5-89cd-4df2-a3a3-83a5c95243d8)
 
 ### Imagery
 
