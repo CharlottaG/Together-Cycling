@@ -206,22 +206,20 @@ The live site can be viewed at: https://charlottag.github.io/Together-Cycling/
 
 ### Testing
 
-Testing of the site functionalities was performed on:
+* Testing of the site functionalities was performed on:
+	- Laptop: Dell 5430, Windows 10, running Chrome, Edge or Firefox (1920x1080 monitor)
+	- iPhone 13, running Safari (6.1" diagonal)
+	- Samsung Galaxy S23, Android (6.1" diagonal)
+	- iPad 9, running Safari (10.2" diagonal)
 
-- Laptop: Dell 5430, Windows 10, running Chrome, Edge or Firefox (1920x1080 monitor)
-- iPhone 13, running Safari (6.1" diagonal)
-- Samsung Galaxy S23, Android (6.1" diagonal)
-- iPad 9, running Safari (10.2" diagonal)
+* Based on statistics from [Top Browsers Market Share - Most Popular Browsers in July 2023 | Similarweb](https://www.similarweb.com/browsers/) all testing was done using:
+	1. Google Chrome
+	2. Apple Safari
+	3. Microsoft Edge
+	4. Mozilla Firefox
+	5. Android
 
-Based on statistics from [Top Browsers Market Share - Most Popular Browsers in July 2023 | Similarweb](https://www.similarweb.com/browsers/) all testing was done using:
-
-1. Google Chrome
-2. Apple Safari
-3. Microsoft Edge
-4. Mozilla Firefox
-5. Android
-
-Screen reading was tested using built-in browser functionality in Chrome.
+* Screen reading was tested using built-in browser functionality in Chrome.
 
 | Feature        | Expected Outcome | Chrome | Edge | Firefox | Safari | Android |
 ---------------  | ---------------- | ------ | ---- | ------- | ------ | ------- |
@@ -260,7 +258,7 @@ Screen reading was tested using built-in browser functionality in Chrome.
 
 ### Validation
 
-####Home page####
+#### Home page
 There was an incorrect use of an aria-label attribute with a link, when that was corrected and two open tags were close the paged passed the validation.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b21f8bd5-abc9-4a1e-99cb-297b990b14cc)
@@ -269,14 +267,14 @@ There was an incorrect use of an aria-label attribute with a link, when that was
 
 <https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
 
-####Rides page####
+#### Rides page
 Had issues with the width and height attributes for the iframes, that were initially set to 100%. This had to be change to a numeric value and that caused some errors on the display of the elements. A new media query for smaller screens had to be added to accommodate the display on screens less than 380px.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/7b1dcd3c-4f8c-4e1e-83eb-52e8b014ff8d)
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e8d733f0-c101-4b8d-b7f4-c52f2618768a)
 
-####Ride with us page####
+#### Ride with us page
 No issues.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/810660a7-7f30-474a-afd1-77319c147a91)
@@ -307,7 +305,7 @@ I'd like to thank *Luke Buchanan, my mentor at Code Institute*, for invaluable g
 
 ### Content
 
-Copy is my own with help from open.ai to flesh out the text on the Ride with us sign-up page.
+The web site copy is my own, but I used [openai](https://openai.com) to add some more flavor and improve it, enhancing its overall quality and engagement.
 
 ### Media
 
