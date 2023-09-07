@@ -147,6 +147,7 @@ The home page (index page), presents the purpose of the page - Coming together o
 The Our Rides page provides information on scheduled rides information on when and where the group rides will take place, what type of ride it is and some information on the focus of the ride so that the user can assess wheather that specific ride is for them or not. The page also provides map to show the route if the user is just out to find inspiration on new rides. The maps are interactive and can be viewed in a larger format by clicking the top right icon in the black bar on top of the map, the maps can also be shared with others from the black top bar.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/3fe7b2f0-0d7e-4862-8ca7-4a5661e69c2b)
+
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/8e92d4b2-007f-4183-b52c-9bf4fc079a71)
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/3d4faaa7-1f25-4607-be60-398accef331c)
@@ -161,6 +162,11 @@ The Ride with us page contains a form to sign-up for a newsletter with informati
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/bdbda4f9-5b07-4fa5-a880-3e38398768a5)
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/fcf0336e-9c2d-4f0c-8a6d-e0131df4c67e)
+
+## Bug fixes
+The content on the Our rides page did not flow as intended, but this was fixed by using the flexbox feature.
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/ce2a141f-8f80-4e81-a715-c7d286339b5e)
+
 
 ## Technologies
 
