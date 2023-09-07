@@ -192,7 +192,15 @@ Image Optimization: To enhance site performance and accommodate users on slow in
 
 ## Deployment
 
+The Together Cycling site was deployed to [GitHub](https://github.com) pages, following these steps:
 
+1. Go to the [Together-Cycling repository](https://github.com/CharlottaG/Together-Cycling)
+2. Go to the *Settings* tab (top left in the menu)
+3. Go to the left-hand section,under *Code and automation* click **Pages**.
+4. Go to *Source* under *Build and deployment* and use the dropdown menu to choose **Deploy from a branch**
+5. Under *Branch* use the dropdown menu to select **main** and set the *folder* to **root**.
+
+The live site can be viewed at: https://charlottag.github.io/Together-Cycling/
 
 ## Testing and Validation
 
