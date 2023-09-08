@@ -1,5 +1,5 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Give+You+Glory&family=Nunito:wght@200;400&family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Give+You+Glory&family=Nunito:wght@200;600&display=swap');
 
 /* Wildcard selector to override default styling from browser*/
 * {
@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 h2 {
@@ -152,6 +152,7 @@ section {
     font-size: 20px;
     letter-spacing: 3px;
 }
+
 
 #container-jens {
     background-color: rgba(186, 86, 123, 0.7);
