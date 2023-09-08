@@ -1,38 +1,45 @@
 # Together Cycling
+
 Together Cycling is an online platform dedicated to the cycling community, created by and for passionate cyclists. The primary mission is to enhance the cycling experience by organizing and enabling group cycling training rides, and  empower cyclists to connect and embark on exhilarating group training sessions.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e2f03519-e6b3-4c37-ada3-2ef55049a212)
 
 ## Table of contents
-* [Purpose and target audience](#purpose-and-target-audience)
-* [User stories](#user-stories)
-* [Design](#design)
-	* [Color-palette](#color-palette)
-	* [Typography](#typography)
-	* [Wireframes](#wireframes)
-	* [Imagery](#imagery)
-	* [Icons](#icons)
-* [Pages and Features](#pages-and-features)
-	* [General-Features](#general-features)
-	* [Pages](#pages)
-	* [Home page](#home-page)
-	* [Our Rides page](#our-rides-page)
-	* [Ride with us page](#ride-with-us-page)
-* [Technologies](#technologies)
-	* [HTML and CSS](#html-and-css)
-	* [Imagery](#imagery)
-	* [Content](#content)
-* [Accessibility](#accessibility)
-* [Testing and Validation](#testing-and-validation)
-	* [Testing](#testing)
-	* [Validation](#validation)
-* [Credits](#credits)
-	* [Acknowledgement](#acknowledgement)
-	* [Code used](#code-used)
-	* [Content](#content)
-	* [Media](#media)
 
-   ---
+- [Together Cycling](#together-cycling)
+  - [Table of contents](#table-of-contents)
+  - [Purpose and target audience](#purpose-and-target-audience)
+    - [User stories](#user-stories)
+  - [Design](#design)
+    - [Color palette](#color-palette)
+    - [Typography](#typography)
+    - [Wireframes](#wireframes)
+    - [Imagery](#imagery)
+    - [Icons](#icons)
+  - [Pages and Features](#pages-and-features)
+    - [General Features](#general-features)
+    - [Pages](#pages)
+      - [Home page](#home-page)
+      - [Our Rides page](#our-rides-page)
+      - [Ride with us page](#ride-with-us-page)
+  - [Bug fixes](#bug-fixes)
+  - [Technologies](#technologies)
+    - [HTML and CSS](#html-and-css)
+    - [Imagery](#imagery-1)
+    - [Content](#content)
+  - [Accessibility](#accessibility)
+  - [Deployment](#deployment)
+  - [Testing and Validation](#testing-and-validation)
+    - [Testing](#testing)
+    - [Validation](#validation)
+      - [Home page](#home-page-1)
+      - [Rides page](#rides-page)
+      - [Ride with us page](#ride-with-us-page-1)
+  - [Credits](#credits)
+    - [Acknowledgement](#acknowledgement)
+    - [Code used](#code-used)
+    - [Content](#content-1)
+    - [Media](#media)
 
 ## Purpose and target audience
 
@@ -164,9 +171,10 @@ The Ride with us page contains a form to sign-up for a newsletter with informati
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/fcf0336e-9c2d-4f0c-8a6d-e0131df4c67e)
 
 ## Bug fixes
-The content on the Our rides page did not flow as intended, but this was fixed by using the flexbox feature.
-![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/ce2a141f-8f80-4e81-a715-c7d286339b5e)
 
+The content on the Our rides page did not flow as intended, but this was fixed by using the flexbox feature.To be able to adjust the misalignment of the content of the different rides, and to be able to control the responsivity I changed the top container (containing all the rides in one box) to have the display property of flexbox. This solved the issue as I could set the flex-direction to row and let the content wrap to fit the screen size.
+
+![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/ce2a141f-8f80-4e81-a715-c7d286339b5e)
 
 ## Technologies
 
@@ -206,26 +214,26 @@ The Together Cycling site was deployed to [GitHub](https://github.com) pages, fo
 4. Go to *Source* under *Build and deployment* and use the dropdown menu to choose **Deploy from a branch**
 5. Under *Branch* use the dropdown menu to select **main** and set the *folder* to **root**.
 
-The live site can be viewed at: https://charlottag.github.io/Together-Cycling/
+The live site can be viewed at: [https://charlottag.github.io/Together-Cycling/](https://charlottag.github.io/Together-Cycling)
 
 ## Testing and Validation
 
 ### Testing
 
-* Testing of the site functionalities was performed on:
-	- Laptop: Dell 5430, Windows 10, running Chrome, Edge or Firefox (1920x1080 monitor)
-	- iPhone 13, running Safari (6.1" diagonal)
-	- Samsung Galaxy S23, Android (6.1" diagonal)
-	- iPad 9, running Safari (10.2" diagonal)
+- Testing of the site functionalities was performed on:
+  - Laptop: Dell 5430, Windows 10, running Chrome, Edge or Firefox (1920x1080 monitor)
+  - iPhone 13, running Safari (6.1" diagonal)
+  - Samsung Galaxy S23, Android (6.1" diagonal)
+  - iPad 9, running Safari (10.2" diagonal)
 
-* Based on statistics from [Top Browsers Market Share - Most Popular Browsers in July 2023 | Similarweb](https://www.similarweb.com/browsers/) all testing was done using:
+- Based on statistics from [Top Browsers Market Share - Most Popular Browsers in July 2023 | Similarweb](https://www.similarweb.com/browsers/) all testing was done using:
 	1. Google Chrome
 	2. Apple Safari
 	3. Microsoft Edge
 	4. Mozilla Firefox
 	5. Android
 
-* Screen reading was tested using built-in browser functionality in Chrome.
+- Screen reading was tested using built-in browser functionality in Chrome.
 
 | Feature        | Expected Outcome | Chrome | Edge | Firefox | Safari | Android |
 ---------------  | ---------------- | ------ | ---- | ------- | ------ | ------- |
@@ -265,6 +273,7 @@ The live site can be viewed at: https://charlottag.github.io/Together-Cycling/
 ### Validation
 
 #### Home page
+
 There was an incorrect use of an aria-label attribute with a link, when that was corrected and two open tags were close the paged passed the validation.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/b21f8bd5-abc9-4a1e-99cb-297b990b14cc)
@@ -274,6 +283,7 @@ There was an incorrect use of an aria-label attribute with a link, when that was
 <https://wave.webaim.org/report#/https://charlottag.github.io/Together-Cycling/>
 
 #### Rides page
+
 Had issues with the width and height attributes for the iframes, that were initially set to 100%. This had to be change to a numeric value and that caused some errors on the display of the elements. A new media query for smaller screens had to be added to accommodate the display on screens less than 380px.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/7b1dcd3c-4f8c-4e1e-83eb-52e8b014ff8d)
@@ -281,6 +291,7 @@ Had issues with the width and height attributes for the iframes, that were initi
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/e8d733f0-c101-4b8d-b7f4-c52f2618768a)
 
 #### Ride with us page
+
 No issues.
 
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/810660a7-7f30-474a-afd1-77319c147a91)
@@ -305,9 +316,8 @@ I'd like to thank *Luke Buchanan, my mentor at Code Institute*, for invaluable g
 - Gradient color overlay code used from [DEV Community](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio):
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/8606a4eb-5fed-4d6e-91cc-ba4987ef94be)
 
-- Google maps - used the embed code provided by Google. Example: 
+- Google maps - used the embed code provided by Google. Example:
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/a4c72a63-7d30-4e48-a441-f5c9cd27683a)
-
 
 ### Content
 
@@ -315,9 +325,9 @@ The web site copy is my own, but I used [openai](https://openai.com) to add some
 
 ### Media
 
-- [Rawpixel](https://www.rawpixel.com) was used to find a fav-icon for the tab. 
-- [Favicon converter](https://favicon.io/favicon-converter/) was used to generate the different files supported by different browsers. 
+- [Rawpixel](https://www.rawpixel.com) was used to find a fav-icon for the tab.
+- [Favicon converter](https://favicon.io/favicon-converter/) was used to generate the different files supported by different browsers.
 - [Unsplash](https://unsplash.com/)was used to find all other imagery, and Photoshop was used to convert the jpg files to webp files.
-- [Colormind](http://colormind.io/bootstrap>) was used to find a color palette with colors for text, headings, background colors and overlays to use on the site. 
+- [Colormind](http://colormind.io/bootstrap>) was used to find a color palette with colors for text, headings, background colors and overlays to use on the site.
 
 [EOF]
