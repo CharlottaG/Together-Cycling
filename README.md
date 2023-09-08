@@ -307,16 +307,20 @@ I'd like to thank *Luke Buchanan, my mentor at Code Institute*, for invaluable g
 ### Code used
 
 - Navbar: Inspired by the code used from the CodeInstitute learning project - Love Running project
+  
   ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/34eb255b-66b6-4ead-aa3b-86efd66f89c8)
 
 - Autocomplete feature on the form was inspired by [Mozilla org](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#values)
+  
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/8ce957af-a320-4990-882f-440875066cb7)
 
 - Using target-blank for the mailto-link to enable web based email clients to open in new window and thus avoid surprises, and using the *noreferrer* for privacy reasons was inspired by [CSS Tricks](https://css-tricks.com/all-about-mailto-links/)
 - Gradient color overlay code used from [DEV Community](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio):
+  
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/8606a4eb-5fed-4d6e-91cc-ba4987ef94be)
 
 - Google maps - used the embed code provided by Google. Example:
+  
 ![image](https://github.com/CharlottaG/Together-Cycling/assets/138576943/a4c72a63-7d30-4e48-a441-f5c9cd27683a)
 
 ### Content
